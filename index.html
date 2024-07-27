@@ -307,7 +307,7 @@
       onerror="this.loaderr='y';"
     ></script>
     <!-- Carrot quest BEGIN -->
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       !(function () {
         function t(t, e) {
           return function () {
@@ -342,7 +342,7 @@
         }
       })(),
         carrotquest.connect("31150-37323e6335c8cd0f23c2c532a8");
-    </script>
+    </script> -->
     <script type="text/javascript" async="" src="js/api.min.js"></script>
     <!-- Carrot quest END -->
     <script type="text/javascript">
@@ -445,128 +445,6 @@
     </style>
   </head>
   <body class="t-body" style="margin: 0">
-    <a
-      href="#"
-      onclick="doGTranslate('ru|ru');return false;"
-      title="Russian"
-      class="gflag nturl"
-      style="position: absolute; top: 60px; right: 20px; z-index: 10"
-      ><img src="./images/ru.png" height="24" width="32" alt="Russian" /></a
-    ><a
-      href="#"
-      onclick="doGTranslate('ru|uk');return false;"
-      title="Ukrainian"
-      class="gflag nturl"
-      style="position: absolute; top: 60px; right: 70px; z-index: 10"
-      ><img src="./images/ua.webp" height="24" width="32" alt="Ukrainian"
-    /></a>
-    <style>
-      a.gflag {
-        vertical-align: middle;
-        font-size: 32px;
-        padding: 1px 0;
-        background-repeat: no-repeat;
-        background-image: url(//sochka.com/translate/flags/32.png);
-      }
-      a.gflag img {
-        border: 0;
-      }
-      a.gflag:hover {
-        background-image: url(//sochka.com/translate/flags/32a.png);
-      }
-      #goog-gt-tt {
-        display: none !important;
-      }
-      .goog-te-banner-frame {
-        display: none !important;
-      }
-      .goog-te-menu-value:hover {
-        text-decoration: none !important;
-      }
-      body {
-        top: 0 !important;
-      }
-      #google_translate_element2 {
-        display: none !important;
-      }
-    </style>
-    <div id="google_translate_element2"></div>
-    <script>
-      function googleTranslateElementInit2() {
-        new google.translate.TranslateElement(
-          { pageLanguage: "ru", autoDisplay: false },
-          "google_translate_element2"
-        );
-      }
-    </script>
-    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
-
-    <script>
-      eval(
-        (function (p, a, c, k, e, r) {
-          e = function (c) {
-            return (
-              (c < a ? "" : e(parseInt(c / a))) +
-              ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36))
-            );
-          };
-          if (!"".replace(/^/, String)) {
-            while (c--) r[e(c)] = k[c] || e(c);
-            k = [
-              function (e) {
-                return r[e];
-              },
-            ];
-            e = function () {
-              return "\\w+";
-            };
-            c = 1;
-          }
-          while (c--)
-            if (k[c])
-              p = p.replace(new RegExp("\\b" + e(c) + "\\b", "g"), k[c]);
-          return p;
-        })(
-          "6 7(a,b){n{4(2.9){3 c=2.9(\"o\");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s('t'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a=='')v;3 b=a.w('|')[1];3 c;3 d=2.x('y');z(3 i=0;i<d.5;i++)4(d[i].A=='B-C-D')c=d[i];4(2.j('k')==E||2.j('k').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,'m');7(c,'m')}}",
-          43,
-          43,
-          "||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500".split(
-            "|"
-          ),
-          0,
-          {}
-        )
-      );
-    </script>
-    <a
-      href="#"
-      id="load_clicked"
-      onclick="doGTranslate('ru|uk');jQuery(this).parent().parent().find('div.selected a').html(jQuery(this).html());return false;"
-      class="nturl selected"
-    ></a>
-    <script>
-      jQuery(document).ready(function () {
-        function gt_get_cookie(cname) {
-          var name = cname + "=";
-          var decodedCookie = decodeURIComponent(document.cookie);
-          var ca = decodedCookie.split(";");
-          for (var i = 0; i < ca.length; i++) {
-            var c = ca[i];
-            while (c.charAt(0) == " ") {
-              c = c.substring(1);
-            }
-            if (c.indexOf(name) == 0) {
-              return c.substring(name.length, c.length);
-            }
-          }
-          return "";
-        }
-        var googTrans = gt_get_cookie("googtrans");
-        if (googTrans === "") {
-          jQuery("#load_clicked").click();
-        }
-      });
-    </script>
     <!--allrecords-->
     <div
       id="allrecords"
@@ -618,10 +496,10 @@
               style="padding-left: 20px; min-width: 180px; width: 180px"
             >
               <div class="t456__logowrapper" style="display: block">
-                <a href="https://farfor.ru/" style="color: #ffffff"
+                <a href="" style="color: #ffffff"
                   ><img
                     class="t456__imglogo t456__imglogomobile"
-                    src="images/logo__FARFOR_new-202_2.png"
+                    src="./images/svg/logo.svg"
                     imgfield="img"
                     style="max-width: 180px; width: 180px"
                     alt="Farfor"
@@ -637,43 +515,39 @@
                 <li class="t456__list_item" style="padding: 0 15px 0 0">
                   <a
                     class="t-menu__link-item"
-                    href="#how"
+                    href="https://neuroline-af6a2.web.app/auth/login"
+                    target="_blank"
                     data-menu-submenu-hook=""
                     data-menu-item-number="1"
                     style="
                       color: #ffffff;
                       font-weight: 600;
-                      font-family: 'Raleway2';
+                      font-family: 'Poppins' sans-serif;
                     "
-                    >Как работает</a
+                    >Login</a
                   >
                 </li>
-                <li class="t456__list_item" style="padding: 0 15px">
+                <li
+                  class="t456__list_item"
+                  style="
+                    padding: 8px 24px;
+                    background: rgba(37, 69, 220, 1);
+                    border-radius: 8px;
+                    box-shadow: 0px 0px 44px rgba(37, 69, 220, 1);
+                  "
+                >
                   <a
                     class="t-menu__link-item"
-                    href="#bonusi"
+                    href="https://neuroline-af6a2.web.app/auth/register"
+                    target="_blank"
                     data-menu-submenu-hook=""
                     data-menu-item-number="2"
                     style="
                       color: #ffffff;
                       font-weight: 600;
-                      font-family: 'Raleway2';
+                      font-family: 'Poppins' sans-serif;
                     "
-                    >Бонусы</a
-                  >
-                </li>
-                <li class="t456__list_item" style="padding: 0 15px">
-                  <a
-                    class="t-menu__link-item"
-                    href="#bluda"
-                    data-menu-submenu-hook=""
-                    data-menu-item-number="3"
-                    style="
-                      color: #ffffff;
-                      font-weight: 600;
-                      font-family: 'Raleway2';
-                    "
-                    >Блюда</a
+                    >Sign up</a
                   >
                 </li>
               </ul>
@@ -720,13 +594,13 @@
           }
           #rec438678874
             .t-menu__link-item:not(.t-active):not(.tooltipstered):hover {
-            color: #fe5000 !important;
+            /* color: #fe5000 !important; */
           }
           #rec438678874
             .t-menu__link-item:not(.t-active):not(
               .tooltipstered
             ):focus-visible {
-            color: #fe5000 !important;
+            /* color: #fe5000 !important; */
           }
           @supports (overflow: -webkit-marquee) and (justify-content: inherit) {
             #rec438678874 .t-menu__link-item,
@@ -827,6 +701,43 @@
               width: 150px;
             }
           }
+
+          #rec440656754 .tn-elem[data-elem-id="1651033057683"] {
+            z-index: 1;
+            top: 28px;
+            left: calc(50% - 600px + 500px);
+            width: 201px;
+          }
+          #rec440656754 .tn-elem[data-elem-id="1651033057683"] .tn-atom {
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+          @media screen and (max-width: 1199px) {
+            #rec440656754 .tn-elem[data-elem-id="1651033057683"] {
+              top: 28px;
+              left: calc(50% - 480px + 380px);
+            }
+          }
+          @media screen and (max-width: 959px) {
+            #rec440656754 .tn-elem[data-elem-id="1651033057683"] {
+              top: 28px;
+              left: calc(50% - 320px + 560px);
+            }
+          }
+          @media screen and (max-width: 639px) {
+            #rec440656754 .tn-elem[data-elem-id="1651033057683"] {
+              top: 28px;
+              left: calc(50% - 240px + 370px);
+            }
+          }
+          @media screen and (max-width: 479px) {
+            #rec440656754 .tn-elem[data-elem-id="1651033057683"] {
+              top: 20px;
+              left: calc(50% - 160px + 285px);
+              width: 150px;
+            }
+          }
         </style>
         <div class="t396">
           <div
@@ -841,11 +752,11 @@
             <div class="t396__carrier" data-artboard-recid="440656754"></div>
             <div class="t396__filter" data-artboard-recid="440656754"></div>
             <div
-              class="t396__elem tn-elem tn-elem__4406567541651033057682"
-              data-elem-id="1651033057682"
+              class="t396__elem tn-elem tn-elem__4406567541651033057683"
+              data-elem-id="1651033057683"
               data-elem-type="image"
               data-field-top-value="28"
-              data-field-left-value="500"
+              data-field-right-value="25"
               data-field-width-value="201"
               data-field-axisy-value="top"
               data-field-axisx-value="left"
@@ -857,19 +768,57 @@
               data-field-filewidth-value="775"
               data-field-fileheight-value="187"
               data-field-top-res-320-value="20"
-              data-field-left-res-320-value="85"
+              data-field-right-res-320-value="10"
               data-field-width-res-320-value="150"
               data-field-top-res-480-value="28"
-              data-field-left-res-480-value="140"
+              data-field-right-res-480-value="15"
               data-field-top-res-640-value="28"
-              data-field-left-res-640-value="220"
+              data-field-right-res-640-value="25"
               data-field-top-res-960-value="28"
-              data-field-left-res-960-value="380"
+              data-field-right-res-960-value="25"
             >
-              <a class="tn-atom" href="https://farfor.ru/"
+              <a
+                class="tn-atom"
+                href="https://neuroline-af6a2.web.app/auth/login"
+                target="_blank"
                 ><img
                   class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3930-3263-4333-a566-353066326261/logo__FARFOR_new-202.png"
+                  src="./images/login.png"
+                  alt=""
+                  imgfield="tn_img_1651033057683"
+                  style="width: 30px; height: 30px"
+              /></a>
+            </div>
+            <div
+              class="t396__elem tn-elem tn-elem__4406567541651033057682"
+              data-elem-id="1651033057682"
+              data-elem-type="image"
+              data-field-top-value="28"
+              data-field-left-value="25"
+              data-field-width-value="201"
+              data-field-axisy-value="top"
+              data-field-axisx-value="left"
+              data-field-container-value="grid"
+              data-field-topunits-value="px"
+              data-field-leftunits-value="px"
+              data-field-heightunits-value=""
+              data-field-widthunits-value="px"
+              data-field-filewidth-value="775"
+              data-field-fileheight-value="187"
+              data-field-top-res-320-value="20"
+              data-field-left-res-320-value="10"
+              data-field-width-res-320-value="150"
+              data-field-top-res-480-value="28"
+              data-field-left-res-480-value="15"
+              data-field-top-res-640-value="28"
+              data-field-left-res-640-value="25"
+              data-field-top-res-960-value="28"
+              data-field-left-res-960-value="25"
+            >
+              <a class="tn-atom" href=""
+                ><img
+                  class="tn-atom__img t-img"
+                  src="./images/logo_neuro.png"
                   alt=""
                   imgfield="tn_img_1651033057682"
               /></a>
@@ -964,7 +913,7 @@
           #rec438579394 .tn-elem[data-elem-id="1650542123643"] .tn-atom {
             color: #ffffff;
             font-size: 20px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.55;
             font-weight: 400;
             opacity: 0.65;
@@ -1016,29 +965,28 @@
             z-index: 4;
             top: 380px;
             left: calc(50% - 600px + 20px);
-            width: 200px;
-            height: 54px;
           }
           #rec438579394 .tn-elem[data-elem-id="1650542210161"] .tn-atom {
             color: #ffffff;
             font-size: 16px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 700;
-            border-radius: 10px;
-            background-color: #fe5000;
+            border-radius: 8px;
+            padding: 8px 24px;
+            background-color: rgba(37, 69, 220, 1);
             background-position: center center;
             border-color: transparent;
             border-style: solid;
             transition: background-color 0.2s ease-in-out,
-              color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-            box-shadow: 0px 0px 50px 0px rgba(254, 80, 0, 0.3);
+              color 0.2s ease-in-out;
+            box-shadow: 0px 0px 44px rgba(37, 69, 220, 1);
           }
           @media (hover), (min-width: 0\0) {
             #rec438579394
               .tn-elem[data-elem-id="1650542210161"]
               .tn-atom:hover {
-              background-color: #e6420c;
+              background-color: rgba(37, 69, 220, 0.35);
               background-image: none;
             }
           }
@@ -1053,17 +1001,26 @@
               top: 715px;
               left: calc(50% - 320px + 220px);
             }
+            #rec438579394 .tn-elem[data-elem-id="1650542210161"] .tn-atom {
+              padding: 12px 80px;
+            }
           }
           @media screen and (max-width: 639px) {
             #rec438579394 .tn-elem[data-elem-id="1650542210161"] {
               top: 715px;
               left: calc(50% - 240px + 140px);
             }
+            #rec438579394 .tn-elem[data-elem-id="1650542210161"] .tn-atom {
+              padding: 12px 80px;
+            }
           }
           @media screen and (max-width: 479px) {
             #rec438579394 .tn-elem[data-elem-id="1650542210161"] {
               top: 470px;
               left: calc(50% - 160px + 60px);
+            }
+            #rec438579394 .tn-elem[data-elem-id="1650542210161"] .tn-atom {
+              padding: 12px 80px;
             }
           }
           #rec438579394 .tn-elem[data-elem-id="1650551526070"] {
@@ -1154,10 +1111,10 @@
           }
           #rec438579394 .tn-elem[data-elem-id="1650542026479"] .tn-atom {
             color: #ffffff;
-            font-size: 44px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 34px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
-            font-weight: 900;
+            font-weight: 700;
             background-position: center center;
             border-color: transparent;
             border-style: solid;
@@ -1168,7 +1125,7 @@
               left: calc(50% - 480px + 10px);
             }
             #rec438579394 .tn-elem[data-elem-id="1650542026479"] .tn-atom {
-              font-size: 40px;
+              font-size: 34px;
             }
           }
           @media screen and (max-width: 959px) {
@@ -1180,7 +1137,7 @@
               text-align: center;
             }
             #rec438579394 .tn-elem[data-elem-id="1650542026479"] .tn-atom {
-              font-size: 36px;
+              font-size: 34px;
               line-height: 1.3;
             }
           }
@@ -1191,7 +1148,7 @@
               width: 480px;
             }
             #rec438579394 .tn-elem[data-elem-id="1650542026479"] .tn-atom {
-              font-size: 28px;
+              font-size: 20px;
             }
           }
           @media screen and (max-width: 479px) {
@@ -1201,7 +1158,7 @@
               width: 337px;
             }
             #rec438579394 .tn-elem[data-elem-id="1650542026479"] .tn-atom {
-              font-size: 24px;
+              font-size: 20px;
             }
           }
           #rec438579394 .tn-elem[data-elem-id="1650917044267"] {
@@ -1528,7 +1485,7 @@
               class="t396__elem tn-elem tn-elem__4385793941650542123643"
               data-elem-id="1650542123643"
               data-elem-type="text"
-              data-field-top-value="275"
+              data-field-top-value="245"
               data-field-left-value="20"
               data-field-width-value="660"
               data-field-axisy-value="top"
@@ -1538,20 +1495,20 @@
               data-field-leftunits-value="px"
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
-              data-field-top-res-320-value="110"
+              data-field-top-res-320-value="90"
               data-field-left-res-320-value="34"
               data-field-width-res-320-value="253"
-              data-field-top-res-480-value="215"
+              data-field-top-res-480-value="185"
               data-field-left-res-480-value="112"
               data-field-width-res-480-value="256"
-              data-field-top-res-640-value="235"
+              data-field-top-res-640-value="220"
               data-field-left-res-640-value="40"
-              data-field-top-res-960-value="265"
+              data-field-top-res-960-value="245"
               data-field-left-res-960-value="10"
             >
               <h2 class="tn-atom" field="tn_text_1650542123643">
-                Делись с друзьями промокодом!<br />Они получат бесплатную пиццу,
-                а ты — бонусы за их заказ!
+                Monetise your traffic <br />
+                More than 200 offers, verified offers and the best conditions.
               </h2>
             </div>
             <div
@@ -1560,8 +1517,6 @@
               data-elem-type="button"
               data-field-top-value="380"
               data-field-left-value="20"
-              data-field-height-value="54"
-              data-field-width-value="200"
               data-field-axisy-value="top"
               data-field-axisx-value="left"
               data-field-container-value="grid"
@@ -1578,86 +1533,12 @@
               data-field-top-res-960-value="370"
               data-field-left-res-960-value="10"
             >
-              <a class="tn-atom" href="#how">Как это работает</a>
-            </div>
-            <div
-              class="t396__elem tn-elem tn-elem__4385793941650551526070"
-              data-elem-id="1650551526070"
-              data-elem-type="image"
-              data-field-top-value="386"
-              data-field-left-value="250"
-              data-field-width-value="32"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value=""
-              data-field-widthunits-value="px"
-              data-animate-mobile="y"
-              data-animate-sbs-event="blockintoview"
-              data-animate-sbs-trg="1"
-              data-animate-sbs-trgofst="0"
-              data-animate-sbs-loop="loop"
-              data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':700,'mx':'0','my':15,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'easeOut','dt':'0'},{'ti':700,'mx':'0','my':0,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'easeOut','dt':'0'}]"
-              data-field-filewidth-value="32"
-              data-field-fileheight-value="32"
-              data-field-top-res-320-value="548"
-              data-field-left-res-320-value="146"
-              data-field-width-res-320-value="28"
-              data-field-top-res-480-value="800"
-              data-field-left-res-480-value="224"
-              data-field-top-res-640-value="800"
-              data-field-left-res-640-value="304"
-              data-field-top-res-960-value="376"
-              data-field-left-res-960-value="240"
-            >
-              <div class="tn-atom">
-                <img
-                  class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3131-3033-4430-b064-306239383763/iconeee_1.svg"
-                  alt=""
-                  imgfield="tn_img_1650551526070"
-                />
-              </div>
-            </div>
-            <div
-              class="t396__elem tn-elem tn-elem__4385793941650627795200"
-              data-elem-id="1650627795200"
-              data-elem-type="image"
-              data-field-top-value="370"
-              data-field-left-value="-30"
-              data-field-width-value="1252"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value=""
-              data-field-widthunits-value="px"
-              data-field-filewidth-value="270"
-              data-field-fileheight-value="84"
-              data-field-top-res-320-value="542"
-              data-field-left-res-320-value="-18"
-              data-field-width-res-320-value="357"
-              data-field-top-res-480-value="750"
-              data-field-left-res-480-value="8"
-              data-field-width-res-480-value="465"
-              data-field-top-res-640-value="715"
-              data-field-left-res-640-value="10"
-              data-field-width-res-640-value="615"
-              data-field-top-res-960-value="360"
-              data-field-left-res-960-value="-11"
-              data-field-width-res-960-value="983"
-            >
-              <div class="tn-atom">
-                <img
-                  class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3265-3635-4365-b465-643034633862/farfor_light.svg"
-                  alt=""
-                  imgfield="tn_img_1650627795200"
-                />
-              </div>
+              <a
+                class="tn-atom"
+                href="https://neuroline-af6a2.web.app/auth/register"
+                target="_blank"
+                >Sign up</a
+              >
             </div>
             <div
               class="t396__elem tn-elem tn-elem__4385793941650542026479"
@@ -1685,7 +1566,7 @@
               data-field-left-res-960-value="10"
             >
               <h1 class="tn-atom" field="tn_text_1650542026479">
-                Другу — бесплатная пицца,<br />а тебе — бонусы!
+                Neurolid - performance platform<br />in the infobusiness market.
               </h1>
             </div>
             <div
@@ -1720,16 +1601,7 @@
               data-field-top-res-960-value="231"
               data-field-left-res-960-value="928"
               data-field-width-res-960-value="52"
-            >
-              <div class="tn-atom">
-                <img
-                  class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild6566-3535-4561-a435-626138353830/msg2.png"
-                  alt=""
-                  imgfield="tn_img_1650917044267"
-                />
-              </div>
-            </div>
+            ></div>
             <div
               class="t396__elem tn-elem tn-elem__4385793941650917044264 t-animate"
               data-elem-id="1650917044264"
@@ -1762,16 +1634,7 @@
               data-field-top-res-960-value="378"
               data-field-left-res-960-value="868"
               data-field-width-res-960-value="92"
-            >
-              <div class="tn-atom">
-                <img
-                  class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild6565-3237-4430-a333-356661323837/msg4.png"
-                  alt=""
-                  imgfield="tn_img_1650917044264"
-                />
-              </div>
-            </div>
+            ></div>
             <div
               class="t396__elem tn-elem tn-elem__4385793941650917044261 t-animate"
               data-elem-id="1650917044261"
@@ -1804,16 +1667,7 @@
               data-field-top-res-960-value="284"
               data-field-left-res-960-value="868"
               data-field-width-res-960-value="121"
-            >
-              <div class="tn-atom">
-                <img
-                  class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3633-3162-4432-b734-336139633563/msg3.png"
-                  alt=""
-                  imgfield="tn_img_1650917044261"
-                />
-              </div>
-            </div>
+            ></div>
             <div
               class="t396__elem tn-elem tn-elem__4385793941650917044258 t-animate"
               data-elem-id="1650917044258"
@@ -1845,16 +1699,7 @@
               data-field-top-res-960-value="196"
               data-field-left-res-960-value="868"
               data-field-width-res-960-value="117"
-            >
-              <div class="tn-atom">
-                <img
-                  class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3031-6363-4366-a238-333664393731/msg1.png"
-                  alt=""
-                  imgfield="tn_img_1650917044258"
-                />
-              </div>
-            </div>
+            ></div>
             <div
               class="t396__elem tn-elem tn-elem__4385793941650917044254 t-animate"
               data-elem-id="1650917044254"
@@ -1887,16 +1732,7 @@
               data-field-top-res-960-value="366"
               data-field-left-res-960-value="797"
               data-field-width-res-960-value="60"
-            >
-              <div class="tn-atom">
-                <img
-                  class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3836-6163-4934-b439-613535646361/woman2.png"
-                  alt=""
-                  imgfield="tn_img_1650917044254"
-                />
-              </div>
-            </div>
+            ></div>
             <div
               class="t396__elem tn-elem tn-elem__4385793941650917044251 t-animate"
               data-elem-id="1650917044251"
@@ -1929,16 +1765,7 @@
               data-field-top-res-960-value="277"
               data-field-left-res-960-value="798"
               data-field-width-res-960-value="60"
-            >
-              <div class="tn-atom">
-                <img
-                  class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3366-3435-4732-a461-656334363138/woman1.png"
-                  alt=""
-                  imgfield="tn_img_1650917044251"
-                />
-              </div>
-            </div>
+            ></div>
             <div
               class="t396__elem tn-elem tn-elem__4385793941650917044247 t-animate"
               data-elem-id="1650917044247"
@@ -1970,16 +1797,7 @@
               data-field-top-res-960-value="189"
               data-field-left-res-960-value="798"
               data-field-width-res-960-value="60"
-            >
-              <div class="tn-atom">
-                <img
-                  class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3866-6236-4137-a333-653861383235/men.png"
-                  alt=""
-                  imgfield="tn_img_1650917044247"
-                />
-              </div>
-            </div>
+            ></div>
             <div
               class="t396__elem tn-elem tn-elem__4385793941650917044235"
               data-elem-id="1650917044235"
@@ -2011,7 +1829,7 @@
               <div class="tn-atom">
                 <img
                   class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild6136-6562-4433-b965-336237646661/drug1.png"
+                  data-original="./images/cpa_platform-png1.png"
                   alt=""
                   imgfield="tn_img_1650917044235"
                 />
@@ -2110,10 +1928,10 @@
           }
           #rec438968714 .tn-elem[data-elem-id="1650542026479"] .tn-atom {
             color: #ffffff;
-            font-size: 44px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 34px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
-            font-weight: 900;
+            font-weight: 700;
             background-position: center center;
             border-color: transparent;
             border-style: solid;
@@ -2131,7 +1949,7 @@
               width: 495px;
             }
             #rec438968714 .tn-elem[data-elem-id="1650542026479"] .tn-atom {
-              font-size: 36px;
+              font-size: 30px;
             }
           }
           @media screen and (max-width: 639px) {
@@ -2141,7 +1959,7 @@
               width: 423px;
             }
             #rec438968714 .tn-elem[data-elem-id="1650542026479"] .tn-atom {
-              font-size: 32px;
+              font-size: 20px;
             }
           }
           @media screen and (max-width: 479px) {
@@ -2151,7 +1969,7 @@
               width: 320px;
             }
             #rec438968714 .tn-elem[data-elem-id="1650542026479"] .tn-atom {
-              font-size: 28px;
+              font-size: 20px;
             }
           }
           #rec438968714 .tn-elem[data-elem-id="1650545610198"] {
@@ -2202,10 +2020,10 @@
           }
           #rec438968714 .tn-elem[data-elem-id="1650542123643"] .tn-atom {
             color: #ffffff;
-            font-size: 24px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 18px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.3;
-            font-weight: 600;
+            font-weight: 400;
             background-position: center center;
             border-color: transparent;
             border-style: solid;
@@ -2217,7 +2035,7 @@
               width: 420px;
             }
             #rec438968714 .tn-elem[data-elem-id="1650542123643"] .tn-atom {
-              font-size: 22px;
+              font-size: 18px;
             }
           }
           @media screen and (max-width: 959px) {
@@ -2237,7 +2055,7 @@
               width: 360px;
             }
             #rec438968714 .tn-elem[data-elem-id="1650542123643"] .tn-atom {
-              font-size: 18px;
+              font-size: 14px;
             }
           }
           @media screen and (max-width: 479px) {
@@ -2247,7 +2065,7 @@
               width: 260px;
             }
             #rec438968714 .tn-elem[data-elem-id="1650542123643"] .tn-atom {
-              font-size: 17px;
+              font-size: 14px;
             }
           }
           #rec438968714 .tn-elem[data-elem-id="1650546342818"] {
@@ -2298,10 +2116,10 @@
           }
           #rec438968714 .tn-elem[data-elem-id="1650621645483"] .tn-atom {
             color: #ffffff;
-            font-size: 24px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 18px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.3;
-            font-weight: 600;
+            font-weight: 400;
             background-position: center center;
             border-color: transparent;
             border-style: solid;
@@ -2312,7 +2130,7 @@
               left: calc(50% - 480px + 90px);
             }
             #rec438968714 .tn-elem[data-elem-id="1650621645483"] .tn-atom {
-              font-size: 22px;
+              font-size: 18px;
             }
           }
           @media screen and (max-width: 959px) {
@@ -2332,7 +2150,7 @@
               width: 360px;
             }
             #rec438968714 .tn-elem[data-elem-id="1650621645483"] .tn-atom {
-              font-size: 18px;
+              font-size: 14px;
             }
           }
           @media screen and (max-width: 479px) {
@@ -2342,7 +2160,7 @@
               width: 260px;
             }
             #rec438968714 .tn-elem[data-elem-id="1650621645483"] .tn-atom {
-              font-size: 17px;
+              font-size: 14px;
             }
           }
           #rec438968714 .tn-elem[data-elem-id="1650621673100"] {
@@ -2393,10 +2211,10 @@
           }
           #rec438968714 .tn-elem[data-elem-id="1650621673106"] .tn-atom {
             color: #ffffff;
-            font-size: 24px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 18px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.3;
-            font-weight: 600;
+            font-weight: 400;
             background-position: center center;
             border-color: transparent;
             border-style: solid;
@@ -2408,7 +2226,7 @@
               width: 374px;
             }
             #rec438968714 .tn-elem[data-elem-id="1650621673106"] .tn-atom {
-              font-size: 22px;
+              font-size: 18px;
             }
           }
           @media screen and (max-width: 959px) {
@@ -2428,7 +2246,7 @@
               width: 340px;
             }
             #rec438968714 .tn-elem[data-elem-id="1650621673106"] .tn-atom {
-              font-size: 18px;
+              font-size: 14px;
             }
           }
           @media screen and (max-width: 479px) {
@@ -2438,7 +2256,7 @@
               width: 260px;
             }
             #rec438968714 .tn-elem[data-elem-id="1650621673106"] .tn-atom {
-              font-size: 17px;
+              font-size: 14px;
             }
           }
           #rec438968714 .tn-elem[data-elem-id="1650621887426"] {
@@ -2485,9 +2303,9 @@
           #rec438968714 .tn-elem[data-elem-id="1650626556425"] .tn-atom {
             border-width: 1px;
             border-radius: 40px;
-            background-color: #2a2b30;
+            background-color: rgba(28, 29, 32, 1);
             background-position: center center;
-            border-color: #494a4d;
+            border-color: rgba(44, 45, 50, 1);
             border-style: solid;
           }
           @media screen and (max-width: 1199px) {
@@ -2537,24 +2355,24 @@
           }
           #rec438968714 .tn-elem[data-elem-id="1650689886568"] .tn-atom {
             color: #ffffff;
-            font-size: 16px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 14px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
-            font-weight: 700;
+            font-weight: 600;
             border-radius: 10px;
-            background-color: #fe5000;
+            background-color: rgba(37, 69, 220, 1);
             background-position: center center;
             border-color: transparent;
             border-style: solid;
             transition: background-color 0.2s ease-in-out,
-              color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-            box-shadow: 0px 0px 50px 0px rgba(254, 80, 0, 0.3);
+              color 0.2s ease-in-out;
+            box-shadow: 0px 0px 44px 0px rgba(37, 69, 220, 0.35);
           }
           @media (hover), (min-width: 0\0) {
             #rec438968714
               .tn-elem[data-elem-id="1650689886568"]
               .tn-atom:hover {
-              background-color: #e6420c;
+              background-color: rgba(37, 69, 220, 0.35);
               background-image: none;
             }
           }
@@ -2702,7 +2520,7 @@
               data-field-left-res-960-value="168"
             >
               <div class="tn-atom" field="tn_text_1650542026479">
-                Как это работает?
+                How does it work?
               </div>
             </div>
             <div
@@ -2737,7 +2555,7 @@
               <div class="tn-atom">
                 <img
                   class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3031-3462-4564-a633-353539386564/promokod.png"
+                  data-original="images/cpa_platform-png2.png"
                   alt=""
                   imgfield="tn_img_1650545610198"
                 />
@@ -2774,10 +2592,9 @@
               data-field-width-res-960-value="420"
             >
               <div class="tn-atom" field="tn_text_1650542123643">
-                Заходи в Личный кабинет на сайте или в приложении и копируй
-                промокод.<br /><br /><span style="color: rgb(254, 80, 0)"
-                  >Отправь промокод другу</span
-                >, который ни разу не делал заказы в Farfor
+                The brand passes the verification and registers a personal
+                account on the platform<br /><br />Replenishes the advertising
+                balance and places an advertising offer after confirmation.
               </div>
             </div>
             <div
@@ -2812,7 +2629,7 @@
               <div class="tn-atom">
                 <img
                   class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3738-3730-4138-a531-326135643062/pizza_podarok2.png"
+                  data-original="images/cpa_platform-png3.png"
                   alt=""
                   imgfield="tn_img_1650546342818"
                 />
@@ -2848,9 +2665,10 @@
               data-field-left-res-960-value="90"
             >
               <div class="tn-atom" field="tn_text_1650621645483">
-                Друг делает
-                <span style="color: rgb(254, 80, 0)">заказ от 400 грн.</span>
-                с этим промокодом и получает к заказу бесплатную пиццу!
+                Affiliate drives traffic to the advertiser's offer
+                <br />
+                When users perform a targeted action, the affiliate receives a
+                reward.
               </div>
             </div>
             <div
@@ -2885,7 +2703,7 @@
               <div class="tn-atom">
                 <img
                   class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3434-3335-4030-a535-656238333737/bonusi_zachisleni.png"
+                  data-original="images/cpa_platform-png4.png"
                   alt=""
                   imgfield="tn_img_1650621673100"
                 />
@@ -2922,9 +2740,9 @@
               data-field-width-res-960-value="374"
             >
               <div class="tn-atom" field="tn_text_1650621673106">
-                На следующий день ты получишь
-                <span style="color: rgb(254, 80, 0)">10% бонусов</span>
-                от суммы заказа друга на свой аккаунт в Farfor
+                Neurolid unites advertisers and webmasters on its platform
+                <br />
+                Tracks traffic quality and pays rewards.
               </div>
             </div>
             <div
@@ -2932,7 +2750,7 @@
               data-elem-id="1650621887426"
               data-elem-type="image"
               data-field-top-value="492"
-              data-field-left-value="382"
+              data-field-left-value="342"
               data-field-width-value="437"
               data-field-axisy-value="top"
               data-field-axisx-value="left"
@@ -2952,7 +2770,7 @@
               <div class="tn-atom">
                 <img
                   class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3336-6535-4061-b739-623933383262/arrow.svg"
+                  data-original="images/svg/line.svg"
                   alt=""
                   imgfield="tn_img_1650621887426"
                 />
@@ -3025,9 +2843,9 @@
             >
               <a
                 class="tn-atom"
-                href="https://pizza.ua/get-city/orders"
+                href="https://neuroline-af6a2.web.app/auth/login"
                 target="_blank"
-                >В личный кабинет</a
+                >To your cabinet</a
               >
             </div>
             <div
@@ -3059,7 +2877,7 @@
               <div class="tn-atom">
                 <img
                   class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3762-6632-4263-a132-666636393064/step_line.svg"
+                  data-original="images/svg/straight_line.svg"
                   alt=""
                   imgfield="tn_img_1650696681106"
                 />
@@ -3093,7 +2911,7 @@
               <div class="tn-atom">
                 <img
                   class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3762-6632-4263-a132-666636393064/step_line.svg"
+                  data-original="images/svg/straight_line.svg"
                   alt=""
                   imgfield="tn_img_1650696782676"
                 />
@@ -3195,8 +3013,8 @@
           }
           #rec438706099 .tn-elem[data-elem-id="1650599332963"] .tn-atom {
             color: #ffffff;
-            font-size: 20px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 18px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.65;
@@ -3217,7 +3035,7 @@
               width: 518px;
             }
             #rec438706099 .tn-elem[data-elem-id="1650599332963"] .tn-atom {
-              font-size: 18px;
+              font-size: 14px;
             }
           }
           @media screen and (max-width: 639px) {
@@ -3234,9 +3052,65 @@
               width: 298px;
             }
             #rec438706099 .tn-elem[data-elem-id="1650599332963"] .tn-atom {
-              font-size: 15px;
+              font-size: 14px;
             }
           }
+
+
+#rec438706099 .tn-elem[data-elem-id="1650599332964"] {
+            color: #ffffff;
+            text-align: center;
+            z-index: 13;
+            top: 170px;
+            left: calc(50% - 600px + 264px);
+            width: 673px;
+          }
+          #rec438706099 .tn-elem[data-elem-id="1650599332964"] .tn-atom {
+            color: #ffffff;
+            font-size: 18px;
+            font-family: "Poppins", Arial, sans-serif;
+            line-height: 1.4;
+            font-weight: 400;
+            opacity: 0.65;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
+          }
+          @media screen and (max-width: 1199px) {
+            #rec438706099 .tn-elem[data-elem-id="1650599332964"] {
+              top: 180px;
+              left: calc(50% - 480px + 146px);
+            }
+          }
+          @media screen and (max-width: 959px) {
+            #rec438706099 .tn-elem[data-elem-id="1650599332964"] {
+              top: 160px;
+              left: calc(50% - 320px + 61px);
+              width: 518px;
+            }
+            #rec438706099 .tn-elem[data-elem-id="1650599332964"] .tn-atom {
+              font-size: 14px;
+            }
+          }
+          @media screen and (max-width: 639px) {
+            #rec438706099 .tn-elem[data-elem-id="1650599332964"] {
+              top: 150px;
+              left: calc(50% - 240px + 36px);
+              width: 408px;
+            }
+          }
+          @media screen and (max-width: 479px) {
+            #rec438706099 .tn-elem[data-elem-id="1650599332964"] {
+              top: 115px;
+              left: calc(50% - 160px + 11px);
+              width: 298px;
+            }
+            #rec438706099 .tn-elem[data-elem-id="1650599332964"] .tn-atom {
+              font-size: 14px;
+            }
+          }
+
+
           #rec438706099 .tn-elem[data-elem-id="1650557988571"] {
             z-index: 27;
             top: 350px;
@@ -3285,8 +3159,8 @@
           }
           #rec438706099 .tn-elem[data-elem-id="1650615923478"] .tn-atom {
             color: #ffffff;
-            font-size: 16px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 14px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.65;
@@ -3321,7 +3195,7 @@
               width: 250px;
             }
             #rec438706099 .tn-elem[data-elem-id="1650615923478"] .tn-atom {
-              font-size: 15px;
+              font-size: 14px;
             }
           }
           #rec438706099 .tn-elem[data-elem-id="1650615923483"] {
@@ -3334,10 +3208,10 @@
           }
           #rec438706099 .tn-elem[data-elem-id="1650615923483"] .tn-atom {
             color: #ffffff;
-            font-size: 26px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 22px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.2;
-            font-weight: 700;
+            font-weight: 600;
             background-position: center center;
             border-color: transparent;
             border-style: solid;
@@ -3349,7 +3223,7 @@
               width: 300px;
             }
             #rec438706099 .tn-elem[data-elem-id="1650615923483"] .tn-atom {
-              font-size: 24px;
+              font-size: 22px;
             }
           }
           @media screen and (max-width: 959px) {
@@ -3372,7 +3246,7 @@
               width: 280px;
             }
             #rec438706099 .tn-elem[data-elem-id="1650615923483"] .tn-atom {
-              font-size: 20px;
+              font-size: 22px;
             }
           }
           #rec438706099 .tn-elem[data-elem-id="1650557808738"] {
@@ -3423,8 +3297,8 @@
           }
           #rec438706099 .tn-elem[data-elem-id="1650615880881"] .tn-atom {
             color: #ffffff;
-            font-size: 16px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 14px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.65;
@@ -3459,7 +3333,7 @@
               width: 250px;
             }
             #rec438706099 .tn-elem[data-elem-id="1650615880881"] .tn-atom {
-              font-size: 15px;
+              font-size: 14px;
             }
           }
           #rec438706099 .tn-elem[data-elem-id="1650615880886"] {
@@ -3472,10 +3346,10 @@
           }
           #rec438706099 .tn-elem[data-elem-id="1650615880886"] .tn-atom {
             color: #ffffff;
-            font-size: 26px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 22px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.2;
-            font-weight: 700;
+            font-weight: 600;
             background-position: center center;
             border-color: transparent;
             border-style: solid;
@@ -3487,7 +3361,7 @@
               width: 300px;
             }
             #rec438706099 .tn-elem[data-elem-id="1650615880886"] .tn-atom {
-              font-size: 24px;
+              font-size: 22px;
             }
           }
           @media screen and (max-width: 959px) {
@@ -3510,7 +3384,7 @@
               width: 280px;
             }
             #rec438706099 .tn-elem[data-elem-id="1650615880886"] .tn-atom {
-              font-size: 20px;
+              font-size: 22px;
             }
           }
           #rec438706099 .tn-elem[data-elem-id="1650555013770"] {
@@ -3561,8 +3435,8 @@
           }
           #rec438706099 .tn-elem[data-elem-id="1650615738847"] .tn-atom {
             color: #ffffff;
-            font-size: 16px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 14px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.65;
@@ -3597,7 +3471,7 @@
               width: 250px;
             }
             #rec438706099 .tn-elem[data-elem-id="1650615738847"] .tn-atom {
-              font-size: 15px;
+              font-size: 14px;
             }
           }
           #rec438706099 .tn-elem[data-elem-id="1650555013763"] {
@@ -3610,10 +3484,10 @@
           }
           #rec438706099 .tn-elem[data-elem-id="1650555013763"] .tn-atom {
             color: #ffffff;
-            font-size: 26px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 22px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.2;
-            font-weight: 700;
+            font-weight: 600;
             background-position: center center;
             border-color: transparent;
             border-style: solid;
@@ -3625,7 +3499,7 @@
               width: 300px;
             }
             #rec438706099 .tn-elem[data-elem-id="1650555013763"] .tn-atom {
-              font-size: 24px;
+              font-size: 22px;
             }
           }
           @media screen and (max-width: 959px) {
@@ -3648,7 +3522,7 @@
               width: 280px;
             }
             #rec438706099 .tn-elem[data-elem-id="1650555013763"] .tn-atom {
-              font-size: 20px;
+              font-size: 22px;
             }
           }
           #rec438706099 .tn-elem[data-elem-id="1650694657675"] {
@@ -3661,10 +3535,10 @@
           }
           #rec438706099 .tn-elem[data-elem-id="1650694657675"] .tn-atom {
             color: #ffffff;
-            font-size: 44px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 34px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.2;
-            font-weight: 900;
+            font-weight: 700;
             background-position: center center;
             border-color: transparent;
             border-style: solid;
@@ -3682,7 +3556,7 @@
               width: 584px;
             }
             #rec438706099 .tn-elem[data-elem-id="1650694657675"] .tn-atom {
-              font-size: 36px;
+              font-size: 20px;
             }
           }
           @media screen and (max-width: 639px) {
@@ -3692,7 +3566,7 @@
               width: 400px;
             }
             #rec438706099 .tn-elem[data-elem-id="1650694657675"] .tn-atom {
-              font-size: 32px;
+              font-size: 20px;
             }
           }
           @media screen and (max-width: 479px) {
@@ -3702,7 +3576,7 @@
               width: 312px;
             }
             #rec438706099 .tn-elem[data-elem-id="1650694657675"] .tn-atom {
-              font-size: 25px;
+              font-size: 20px;
             }
           }
         </style>
@@ -3746,11 +3620,11 @@
               data-field-left-res-640-value="61"
               data-field-width-res-640-value="518"
               data-field-top-res-960-value="216"
-              data-field-left-res-960-value="96"
+              data-field-left-res-960-value="146"
             >
               <div class="tn-atom" field="tn_text_1650599332963">
-                Приводи друзей в Farfor! Копи бонусы за заказы, получай их в
-                подарок и выигрывай в конкурсах и активностях!
+                Get rewarded for the actions of your users and <br />
+                withdraw money in any convenient way.
               </div>
             </div>
             <div
@@ -3784,7 +3658,7 @@
               <div class="tn-atom">
                 <img
                   class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3533-6430-4135-b463-323839383264/bonusi.png"
+                  data-original="images/cpa_platform-png5.png"
                   alt=""
                   imgfield="tn_img_1650557988571"
                 />
@@ -3794,7 +3668,7 @@
               class="t396__elem tn-elem tn-elem__4387060991650615923478"
               data-elem-id="1650615923478"
               data-elem-type="text"
-              data-field-top-value="760"
+              data-field-top-value="720"
               data-field-left-value="67"
               data-field-width-value="243"
               data-field-axisy-value="top"
@@ -3804,20 +3678,20 @@
               data-field-leftunits-value="px"
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
-              data-field-top-res-320-value="608"
+              data-field-top-res-320-value="590"
               data-field-left-res-320-value="35"
               data-field-width-res-320-value="250"
-              data-field-top-res-480-value="714"
+              data-field-top-res-480-value="690"
               data-field-left-res-480-value="-10"
-              data-field-top-res-640-value="684"
+              data-field-top-res-640-value="660"
               data-field-left-res-640-value="70"
               data-field-width-res-640-value="500"
-              data-field-top-res-960-value="674"
+              data-field-top-res-960-value="650"
               data-field-left-res-960-value="38"
               data-field-width-res-960-value="226"
             >
               <div class="tn-atom" field="tn_text_1650615923478">
-                Оплачивай заказы в Farfor бонусами!
+                After registration you will get access to 200+ offers.
               </div>
             </div>
             <div
@@ -3846,9 +3720,7 @@
               data-field-left-res-960-value="1"
               data-field-width-res-960-value="300"
             >
-              <div class="tn-atom" field="tn_text_1650615923483">
-                Экономь до 50%<br />суммы заказа!
-              </div>
+              <div class="tn-atom" field="tn_text_1650615923483">Register</div>
             </div>
             <div
               class="t396__elem tn-elem tn-elem__4387060991650557808738"
@@ -3881,7 +3753,7 @@
               <div class="tn-atom">
                 <img
                   class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3935-3564-4662-b234-346330386532/nagrada.png"
+                  data-original="images/cpa_platform-png7.png"
                   alt=""
                   imgfield="tn_img_1650557808738"
                 />
@@ -3891,7 +3763,7 @@
               class="t396__elem tn-elem tn-elem__4387060991650615880881"
               data-elem-id="1650615880881"
               data-elem-type="text"
-              data-field-top-value="765"
+              data-field-top-value="720"
               data-field-left-value="450"
               data-field-width-value="293"
               data-field-axisy-value="top"
@@ -3901,20 +3773,21 @@
               data-field-leftunits-value="px"
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
-              data-field-top-res-320-value="1048"
+              data-field-top-res-320-value="1028"
               data-field-left-res-320-value="35"
               data-field-width-res-320-value="250"
-              data-field-top-res-480-value="1220"
+              data-field-top-res-480-value="1200"
               data-field-left-res-480-value="97"
-              data-field-top-res-640-value="1190"
+              data-field-top-res-640-value="1170"
               data-field-left-res-640-value="180"
               data-field-width-res-640-value="286"
-              data-field-top-res-960-value="679"
+              data-field-top-res-960-value="650"
               data-field-left-res-960-value="331"
               data-field-width-res-960-value="300"
             >
               <div class="tn-atom" field="tn_text_1650615880881">
-                Выигрывай бонусы в конкурсах и активностях в социальных сетях
+                Connect the platform, website or social network from which you
+                will advertise.
               </div>
             </div>
             <div
@@ -3944,7 +3817,7 @@
               data-field-width-res-960-value="300"
             >
               <div class="tn-atom" field="tn_text_1650615880886">
-                Бонусы начисляются за каждый твой заказ
+                Select an offer
               </div>
             </div>
             <div
@@ -3978,7 +3851,7 @@
               <div class="tn-atom">
                 <img
                   class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild6566-3039-4566-b861-326438333062/druzya.png"
+                  data-original="images/cpa_platform-png6.png"
                   alt=""
                   imgfield="tn_img_1650555013770"
                 />
@@ -3988,7 +3861,7 @@
               class="t396__elem tn-elem tn-elem__4387060991650615738847"
               data-elem-id="1650615738847"
               data-elem-type="text"
-              data-field-top-value="765"
+              data-field-top-value="720"
               data-field-left-value="853"
               data-field-width-value="293"
               data-field-axisy-value="top"
@@ -3998,20 +3871,20 @@
               data-field-leftunits-value="px"
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
-              data-field-top-res-320-value="1503"
+              data-field-top-res-320-value="1480"
               data-field-left-res-320-value="35"
               data-field-width-res-320-value="250"
-              data-field-top-res-480-value="1745"
+              data-field-top-res-480-value="1725"
               data-field-left-res-480-value="50"
-              data-field-top-res-640-value="1715"
+              data-field-top-res-640-value="1695"
               data-field-left-res-640-value="130"
               data-field-width-res-640-value="380"
-              data-field-top-res-960-value="679"
+              data-field-top-res-960-value="650"
               data-field-left-res-960-value="661"
               data-field-width-res-960-value="300"
             >
               <div class="tn-atom" field="tn_text_1650615738847">
-                Чем больше друзей приведешь, тем больше бонусов получишь!
+                Drive traffic to advertisers who perform targeted actions.
               </div>
             </div>
             <div
@@ -4041,7 +3914,7 @@
               data-field-width-res-960-value="300"
             >
               <div class="tn-atom" field="tn_text_1650555013763">
-                10% бонусами<br />за первый заказ друга!
+                Start traffic
               </div>
             </div>
             <div
@@ -4071,11 +3944,427 @@
               data-field-left-res-960-value="39"
             >
               <div class="tn-atom" field="tn_text_1650694657675">
-                Копи бонусы и оплачивай ими до 50% от стоимости заказа
+                How can an affiliate start working <br />
+                with the platform?
               </div>
             </div>
           </div>
         </div>
+
+        <!-- <div class="t396">
+          <div
+            class="t396__artboard"
+            data-artboard-recid="438706099"
+            data-artboard-screens="320,480,640,960,1200"
+            data-artboard-height="910"
+            data-artboard-valign="center"
+            data-artboard-upscale="grid"
+            data-artboard-height-res-320="1620"
+            data-artboard-height-res-480="1860"
+            data-artboard-height-res-640="1850"
+            data-artboard-height-res-960="820"
+            data-artboard-upscale-res-960="grid"
+          >
+            <div class="t396__carrier" data-artboard-recid="438706099"></div>
+            <div class="t396__filter" data-artboard-recid="438706099"></div>
+            <div
+              class="t396__elem tn-elem tn-elem__4387060991650599332964"
+              data-elem-id="1650599332964"
+              data-elem-type="text"
+              data-field-top-value="170"
+              data-field-left-value="264"
+              data-field-width-value="673"
+              data-field-axisy-value="top"
+              data-field-axisx-value="left"
+              data-field-container-value="grid"
+              data-field-topunits-value="px"
+              data-field-leftunits-value="px"
+              data-field-heightunits-value=""
+              data-field-widthunits-value="px"
+              data-field-top-res-320-value="115"
+              data-field-left-res-320-value="11"
+              data-field-width-res-320-value="298"
+              data-field-top-res-480-value="150"
+              data-field-left-res-480-value="36"
+              data-field-width-res-480-value="408"
+              data-field-top-res-640-value="160"
+              data-field-left-res-640-value="61"
+              data-field-width-res-640-value="518"
+              data-field-top-res-960-value="180"
+              data-field-left-res-960-value="146"
+            >
+              <div class="tn-atom" field="tn_text_1650599332964">
+                Achievements of influencers collaborating with us under the "Pay for Performance" model
+              </div>
+            </div>
+            
+
+            
+            <div
+            class="t396__elem tn-elem tn-elem__4402448621651036074544"
+            data-elem-id="1651036074544"
+            data-elem-type="image"
+            data-field-top-value="587"
+            data-field-left-value="916"
+            data-field-width-value="264"
+            data-field-axisy-value="top"
+            data-field-axisx-value="left"
+            data-field-container-value="grid"
+            data-field-topunits-value="px"
+            data-field-leftunits-value="px"
+            data-field-heightunits-value=""
+            data-field-widthunits-value="px"
+            data-field-filewidth-value="774"
+            data-field-fileheight-value="692"
+            data-field-top-res-320-value="645"
+            data-field-left-res-320-value="182"
+            data-field-width-res-320-value="138"
+            data-field-top-res-480-value="563"
+            data-field-left-res-480-value="328"
+            data-field-width-res-480-value="132"
+            data-field-top-res-640-value="488"
+            data-field-left-res-640-value="426"
+            data-field-top-res-960-value="342"
+            data-field-left-res-960-value="745"
+            data-field-width-res-960-value="204"
+          >
+            <div class="tn-atom">
+              <img
+                class="tn-atom__img t-img"
+                data-original="images/cpa_platform-png8.png"
+                alt=""
+                imgfield="tn_img_1651036074544"
+              />
+            </div>
+          </div>
+          <div
+            class="t396__elem tn-elem tn-elem__4402448621651036074551"
+            data-elem-id="1651036074551"
+            data-elem-type="text"
+            data-field-top-value="700"
+            data-field-left-value="480"
+            data-field-width-value="399"
+            data-field-axisy-value="top"
+            data-field-axisx-value="left"
+            data-field-container-value="grid"
+            data-field-topunits-value="px"
+            data-field-leftunits-value="px"
+            data-field-heightunits-value=""
+            data-field-widthunits-value="px"
+            data-field-top-res-320-value="620"
+            data-field-left-res-320-value="20"
+            data-field-width-res-320-value="180"
+            data-field-top-res-480-value="570"
+            data-field-left-res-480-value="50"
+            data-field-width-res-480-value="263"
+            data-field-top-res-640-value="560"
+            data-field-left-res-640-value="50"
+            data-field-width-res-640-value="376"
+            data-field-top-res-960-value="400"
+            data-field-left-res-960-value="370"
+            data-field-width-res-960-value="328"
+          >
+            <div class="tn-atom" field="tn_text_1651036074551">
+              We are interested in your turnover growth, so we are always ready to
+              help you solve any issues promptly.
+            </div>
+          </div>
+          <div
+            class="t396__elem tn-elem tn-elem__4402448621651036074554"
+            data-elem-id="1651036074554"
+            data-elem-type="text"
+            data-field-top-value="621"
+            data-field-left-value="480"
+            data-field-width-value="436"
+            data-field-axisy-value="top"
+            data-field-axisx-value="left"
+            data-field-container-value="grid"
+            data-field-topunits-value="px"
+            data-field-leftunits-value="px"
+            data-field-heightunits-value=""
+            data-field-widthunits-value="px"
+            data-field-top-res-320-value="570"
+            data-field-left-res-320-value="20"
+            data-field-width-res-320-value="280"
+            data-field-top-res-480-value="520"
+            data-field-left-res-480-value="50"
+            data-field-width-res-480-value="320"
+            data-field-top-res-640-value="490"
+            data-field-left-res-640-value="50"
+            data-field-width-res-640-value="405"
+            data-field-top-res-960-value="320"
+            data-field-left-res-960-value="370"
+            data-field-width-res-960-value="396"
+          >
+            <div class="tn-atom" field="tn_text_1651036074554">
+              Personal manager
+            </div>
+          </div>
+          <div
+            class="t396__elem tn-elem tn-elem__4402448621651036074557"
+            data-elem-id="1651036074557"
+            data-elem-type="shape"
+            data-field-top-value="580"
+            data-field-left-value="420"
+            data-field-height-value="250"
+            data-field-width-value="760"
+            data-field-axisy-value="top"
+            data-field-axisx-value="left"
+            data-field-container-value="grid"
+            data-field-topunits-value="px"
+            data-field-leftunits-value="px"
+            data-field-heightunits-value="px"
+            data-field-widthunits-value="px"
+            data-field-top-res-320-value="550"
+            data-field-left-res-320-value="0"
+            data-field-height-res-320-value="220"
+            data-field-width-res-320-value="320"
+            data-field-top-res-480-value="490"
+            data-field-left-res-480-value="20"
+            data-field-height-res-480-value="195"
+            data-field-width-res-480-value="440"
+            data-field-top-res-640-value="475"
+            data-field-left-res-640-value="10"
+            data-field-height-res-640-value="200"
+            data-field-width-res-640-value="620"
+            data-field-top-res-960-value="290"
+            data-field-left-res-960-value="330"
+            data-field-height-res-960-value="240"
+            data-field-width-res-960-value="620"
+          >
+            <div class="tn-atom"></div>
+          </div>
+            <div
+              class="t396__elem tn-elem tn-elem__4387060991650557808738"
+              data-elem-id="1650557808738"
+              data-elem-type="image"
+              data-field-top-value="350"
+              data-field-left-value="430"
+              data-field-width-value="329"
+              data-field-axisy-value="top"
+              data-field-axisx-value="left"
+              data-field-container-value="grid"
+              data-field-topunits-value="px"
+              data-field-leftunits-value="px"
+              data-field-heightunits-value=""
+              data-field-widthunits-value="px"
+              data-field-filewidth-value="1198"
+              data-field-fileheight-value="1089"
+              data-field-top-res-320-value="715"
+              data-field-left-res-320-value="31"
+              data-field-width-res-320-value="258"
+              data-field-top-res-480-value="810"
+              data-field-left-res-480-value="71"
+              data-field-top-res-640-value="780"
+              data-field-left-res-640-value="151"
+              data-field-width-res-640-value="338"
+              data-field-top-res-960-value="340"
+              data-field-left-res-960-value="358"
+              data-field-width-res-960-value="256"
+            >
+              <div class="tn-atom">
+                <img
+                  class="tn-atom__img t-img"
+                  data-original="images/cpa_platform-png7.png"
+                  alt=""
+                  imgfield="tn_img_1650557808738"
+                />
+              </div>
+            </div>
+            <div
+              class="t396__elem tn-elem tn-elem__4387060991650615880881"
+              data-elem-id="1650615880881"
+              data-elem-type="text"
+              data-field-top-value="720"
+              data-field-left-value="450"
+              data-field-width-value="293"
+              data-field-axisy-value="top"
+              data-field-axisx-value="left"
+              data-field-container-value="grid"
+              data-field-topunits-value="px"
+              data-field-leftunits-value="px"
+              data-field-heightunits-value=""
+              data-field-widthunits-value="px"
+              data-field-top-res-320-value="1028"
+              data-field-left-res-320-value="35"
+              data-field-width-res-320-value="250"
+              data-field-top-res-480-value="1200"
+              data-field-left-res-480-value="97"
+              data-field-top-res-640-value="1170"
+              data-field-left-res-640-value="180"
+              data-field-width-res-640-value="286"
+              data-field-top-res-960-value="650"
+              data-field-left-res-960-value="331"
+              data-field-width-res-960-value="300"
+            >
+              <div class="tn-atom" field="tn_text_1650615880881">
+                Connect the platform, website or social network from which you
+                will advertise.
+              </div>
+            </div>
+            <div
+              class="t396__elem tn-elem tn-elem__4387060991650615880886"
+              data-elem-id="1650615880886"
+              data-elem-type="text"
+              data-field-top-value="680"
+              data-field-left-value="420"
+              data-field-width-value="360"
+              data-field-axisy-value="top"
+              data-field-axisx-value="left"
+              data-field-container-value="grid"
+              data-field-topunits-value="px"
+              data-field-leftunits-value="px"
+              data-field-heightunits-value=""
+              data-field-widthunits-value="px"
+              data-field-top-res-320-value="980"
+              data-field-left-res-320-value="20"
+              data-field-width-res-320-value="280"
+              data-field-top-res-480-value="1150"
+              data-field-left-res-480-value="57"
+              data-field-top-res-640-value="1120"
+              data-field-left-res-640-value="140"
+              data-field-width-res-640-value="367"
+              data-field-top-res-960-value="609"
+              data-field-left-res-960-value="331"
+              data-field-width-res-960-value="300"
+            >
+              <div class="tn-atom" field="tn_text_1650615880886">
+                Select an offer
+              </div>
+            </div>
+            <div
+              class="t396__elem tn-elem tn-elem__4387060991650555013770"
+              data-elem-id="1650555013770"
+              data-elem-type="image"
+              data-field-top-value="340"
+              data-field-left-value="860"
+              data-field-width-value="305"
+              data-field-axisy-value="top"
+              data-field-axisx-value="left"
+              data-field-container-value="grid"
+              data-field-topunits-value="px"
+              data-field-leftunits-value="px"
+              data-field-heightunits-value=""
+              data-field-widthunits-value="px"
+              data-field-filewidth-value="882"
+              data-field-fileheight-value="859"
+              data-field-top-res-320-value="1140"
+              data-field-left-res-320-value="26"
+              data-field-width-res-320-value="269"
+              data-field-top-res-480-value="1325"
+              data-field-left-res-480-value="79"
+              data-field-top-res-640-value="1295"
+              data-field-left-res-640-value="164"
+              data-field-width-res-640-value="322"
+              data-field-top-res-960-value="349"
+              data-field-left-res-960-value="697"
+              data-field-width-res-960-value="234"
+            >
+              <div class="tn-atom">
+                <img
+                  class="tn-atom__img t-img"
+                  data-original="images/cpa_platform-png6.png"
+                  alt=""
+                  imgfield="tn_img_1650555013770"
+                />
+              </div>
+            </div>
+            <div
+              class="t396__elem tn-elem tn-elem__4387060991650615738847"
+              data-elem-id="1650615738847"
+              data-elem-type="text"
+              data-field-top-value="720"
+              data-field-left-value="853"
+              data-field-width-value="293"
+              data-field-axisy-value="top"
+              data-field-axisx-value="left"
+              data-field-container-value="grid"
+              data-field-topunits-value="px"
+              data-field-leftunits-value="px"
+              data-field-heightunits-value=""
+              data-field-widthunits-value="px"
+              data-field-top-res-320-value="1480"
+              data-field-left-res-320-value="35"
+              data-field-width-res-320-value="250"
+              data-field-top-res-480-value="1725"
+              data-field-left-res-480-value="50"
+              data-field-top-res-640-value="1695"
+              data-field-left-res-640-value="130"
+              data-field-width-res-640-value="380"
+              data-field-top-res-960-value="650"
+              data-field-left-res-960-value="661"
+              data-field-width-res-960-value="300"
+            >
+              <div class="tn-atom" field="tn_text_1650615738847">
+                Drive traffic to advertisers who perform targeted actions.
+              </div>
+            </div>
+            <div
+              class="t396__elem tn-elem tn-elem__4387060991650555013763"
+              data-elem-id="1650555013763"
+              data-elem-type="text"
+              data-field-top-value="680"
+              data-field-left-value="823"
+              data-field-width-value="360"
+              data-field-axisy-value="top"
+              data-field-axisx-value="left"
+              data-field-container-value="grid"
+              data-field-topunits-value="px"
+              data-field-leftunits-value="px"
+              data-field-heightunits-value=""
+              data-field-widthunits-value="px"
+              data-field-top-res-320-value="1435"
+              data-field-left-res-320-value="20"
+              data-field-width-res-320-value="280"
+              data-field-top-res-480-value="1675"
+              data-field-left-res-480-value="-10"
+              data-field-top-res-640-value="1645"
+              data-field-left-res-640-value="70"
+              data-field-width-res-640-value="500"
+              data-field-top-res-960-value="609"
+              data-field-left-res-960-value="661"
+              data-field-width-res-960-value="300"
+            >
+              <div class="tn-atom" field="tn_text_1650555013763">
+                Start traffic
+              </div>
+            </div>
+            <div
+              class="t396__elem tn-elem tn-elem__4387060991650694657675"
+              data-elem-id="1650694657675"
+              data-elem-type="text"
+              data-field-top-value="70"
+              data-field-left-value="159"
+              data-field-width-value="882"
+              data-field-axisy-value="top"
+              data-field-axisx-value="left"
+              data-field-container-value="grid"
+              data-field-topunits-value="px"
+              data-field-leftunits-value="px"
+              data-field-heightunits-value=""
+              data-field-widthunits-value="px"
+              data-field-top-res-320-value="55"
+              data-field-left-res-320-value="4"
+              data-field-width-res-320-value="312"
+              data-field-top-res-480-value="75"
+              data-field-left-res-480-value="40"
+              data-field-width-res-480-value="400"
+              data-field-top-res-640-value="90"
+              data-field-left-res-640-value="28"
+              data-field-width-res-640-value="584"
+              data-field-top-res-960-value="85"
+              data-field-left-res-960-value="39"
+            >
+              <div class="tn-atom" field="tn_text_1650694657675">
+                Earnings of our influencers
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+
+
+
         <script>
           t_onReady(function () {
             t_onFuncLoad("t396_init", function () {
@@ -4168,7 +4457,7 @@
           #rec438709427 .tn-elem[data-elem-id="1650960089986"] .tn-atom {
             color: #212121;
             font-size: 20px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.65;
@@ -4223,9 +4512,9 @@
           #rec438709427 .tn-elem[data-elem-id="1650960089988"] .tn-atom {
             color: #000000;
             font-size: 44px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.2;
-            font-weight: 900;
+            font-weight: 700;
             background-position: center center;
             border-color: transparent;
             border-style: solid;
@@ -4472,9 +4761,9 @@
           #rec440244862 .tn-elem[data-elem-id="1651034964631"] .tn-atom {
             color: #ffffff;
             font-size: 44px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.2;
-            font-weight: 900;
+            font-weight: 700;
             background-position: center center;
             border-color: transparent;
             border-style: solid;
@@ -4524,10 +4813,10 @@
           }
           #rec440244862 .tn-elem[data-elem-id="1650633964527"] .tn-atom {
             color: #ffffff;
-            font-size: 18px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 22px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
-            font-weight: 400;
+            font-weight: 600;
             opacity: 0.9;
             background-position: center center;
             border-color: transparent;
@@ -4540,7 +4829,7 @@
               width: 200px;
             }
             #rec440244862 .tn-elem[data-elem-id="1650633964527"] .tn-atom {
-              font-size: 17px;
+              font-size: 22px;
             }
           }
           @media screen and (max-width: 959px) {
@@ -4557,7 +4846,7 @@
               width: 266px;
             }
             #rec440244862 .tn-elem[data-elem-id="1650633964527"] .tn-atom {
-              font-size: 15px;
+              font-size: 20px;
             }
           }
           @media screen and (max-width: 479px) {
@@ -4576,10 +4865,10 @@
           }
           #rec440244862 .tn-elem[data-elem-id="1650633964520"] .tn-atom {
             color: #ffffff;
-            font-size: 26px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 22px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.3;
-            font-weight: 700;
+            font-weight: 600;
             background-position: center center;
             border-color: transparent;
             border-style: solid;
@@ -4591,7 +4880,7 @@
               width: 220px;
             }
             #rec440244862 .tn-elem[data-elem-id="1650633964520"] .tn-atom {
-              font-size: 24px;
+              font-size: 22px;
             }
           }
           @media screen and (max-width: 959px) {
@@ -4608,7 +4897,7 @@
               width: 380px;
             }
             #rec440244862 .tn-elem[data-elem-id="1650633964520"] .tn-atom {
-              font-size: 18px;
+              font-size: 20px;
             }
           }
           @media screen and (max-width: 479px) {
@@ -4679,7 +4968,7 @@
           #rec440244862 .tn-elem[data-elem-id="1651035598992"] .tn-atom {
             color: #ffffff;
             font-size: 18px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.9;
@@ -4731,7 +5020,7 @@
           #rec440244862 .tn-elem[data-elem-id="1651035598996"] .tn-atom {
             color: #ffffff;
             font-size: 26px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.3;
             font-weight: 700;
             background-position: center center;
@@ -4886,7 +5175,7 @@
           #rec440244862 .tn-elem[data-elem-id="1650633964558"] .tn-atom {
             color: #ffffff;
             font-size: 14px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.3;
@@ -4940,8 +5229,8 @@
           }
           #rec440244862 .tn-elem[data-elem-id="1650633964552"] .tn-atom {
             color: #ffffff;
-            font-size: 18px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 14px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.9;
@@ -4956,7 +5245,7 @@
               width: 363px;
             }
             #rec440244862 .tn-elem[data-elem-id="1650633964552"] .tn-atom {
-              font-size: 17px;
+              font-size: 14px;
             }
           }
           @media screen and (max-width: 959px) {
@@ -4972,7 +5261,7 @@
               width: 279px;
             }
             #rec440244862 .tn-elem[data-elem-id="1650633964552"] .tn-atom {
-              font-size: 15px;
+              font-size: 14px;
             }
           }
           @media screen and (max-width: 479px) {
@@ -4991,10 +5280,10 @@
           }
           #rec440244862 .tn-elem[data-elem-id="1650633964539"] .tn-atom {
             color: #ffffff;
-            font-size: 26px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 22px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.3;
-            font-weight: 700;
+            font-weight: 600;
             background-position: center center;
             border-color: transparent;
             border-style: solid;
@@ -5006,7 +5295,7 @@
               width: 363px;
             }
             #rec440244862 .tn-elem[data-elem-id="1650633964539"] .tn-atom {
-              font-size: 24px;
+              font-size: 22px;
             }
           }
           @media screen and (max-width: 959px) {
@@ -5023,7 +5312,7 @@
               width: 380px;
             }
             #rec440244862 .tn-elem[data-elem-id="1650633964539"] .tn-atom {
-              font-size: 18px;
+              font-size: 20px;
             }
           }
           @media screen and (max-width: 479px) {
@@ -5092,7 +5381,7 @@
           #rec440244862 .tn-elem[data-elem-id="1651035884205"] .tn-atom {
             color: #ffffff;
             font-size: 18px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.9;
@@ -5144,7 +5433,7 @@
           #rec440244862 .tn-elem[data-elem-id="1651035884210"] .tn-atom {
             color: #ffffff;
             font-size: 26px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.3;
             font-weight: 700;
             background-position: center center;
@@ -5239,14 +5528,14 @@
           #rec440244862 .tn-elem[data-elem-id="1651036074530"] {
             color: #ffffff;
             z-index: 11;
-            top: 715px;
+            top: 690px;
             left: calc(50% - 600px + 77px);
             width: 267px;
           }
           #rec440244862 .tn-elem[data-elem-id="1651036074530"] .tn-atom {
             color: #ffffff;
-            font-size: 18px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 14px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.9;
@@ -5261,7 +5550,7 @@
               width: 213px;
             }
             #rec440244862 .tn-elem[data-elem-id="1651036074530"] .tn-atom {
-              font-size: 17px;
+              font-size: 14px;
             }
           }
           @media screen and (max-width: 959px) {
@@ -5278,7 +5567,7 @@
               width: 266px;
             }
             #rec440244862 .tn-elem[data-elem-id="1651036074530"] .tn-atom {
-              font-size: 15px;
+              font-size: 14px;
             }
           }
           @media screen and (max-width: 479px) {
@@ -5297,10 +5586,10 @@
           }
           #rec440244862 .tn-elem[data-elem-id="1651036074535"] .tn-atom {
             color: #ffffff;
-            font-size: 26px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 22px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.3;
-            font-weight: 700;
+            font-weight: 600;
             background-position: center center;
             border-color: transparent;
             border-style: solid;
@@ -5312,7 +5601,7 @@
               width: 228px;
             }
             #rec440244862 .tn-elem[data-elem-id="1651036074535"] .tn-atom {
-              font-size: 24px;
+              font-size: 22px;
             }
           }
           @media screen and (max-width: 959px) {
@@ -5329,7 +5618,7 @@
               width: 380px;
             }
             #rec440244862 .tn-elem[data-elem-id="1651036074535"] .tn-atom {
-              font-size: 18px;
+              font-size: 20px;
             }
           }
           @media screen and (max-width: 479px) {
@@ -5453,8 +5742,8 @@
           }
           #rec440244862 .tn-elem[data-elem-id="1651036074551"] .tn-atom {
             color: #ffffff;
-            font-size: 18px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 14px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.9;
@@ -5469,7 +5758,7 @@
               width: 328px;
             }
             #rec440244862 .tn-elem[data-elem-id="1651036074551"] .tn-atom {
-              font-size: 17px;
+              font-size: 14px;
             }
           }
           @media screen and (max-width: 959px) {
@@ -5486,7 +5775,7 @@
               width: 263px;
             }
             #rec440244862 .tn-elem[data-elem-id="1651036074551"] .tn-atom {
-              font-size: 15px;
+              font-size: 14px;
             }
           }
           @media screen and (max-width: 479px) {
@@ -5505,10 +5794,10 @@
           }
           #rec440244862 .tn-elem[data-elem-id="1651036074554"] .tn-atom {
             color: #ffffff;
-            font-size: 26px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 22px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.3;
-            font-weight: 700;
+            font-weight: 600;
             background-position: center center;
             border-color: transparent;
             border-style: solid;
@@ -5520,7 +5809,7 @@
               width: 396px;
             }
             #rec440244862 .tn-elem[data-elem-id="1651036074554"] .tn-atom {
-              font-size: 24px;
+              font-size: 22px;
             }
           }
           @media screen and (max-width: 959px) {
@@ -5537,7 +5826,7 @@
               width: 320px;
             }
             #rec440244862 .tn-elem[data-elem-id="1651036074554"] .tn-atom {
-              font-size: 18px;
+              font-size: 20px;
             }
           }
           @media screen and (max-width: 479px) {
@@ -5662,7 +5951,7 @@
           #rec440244862 .tn-elem[data-elem-id="1651131383010"] .tn-atom {
             color: #ffffff;
             font-size: 18px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.9;
@@ -5714,7 +6003,7 @@
           #rec440244862 .tn-elem[data-elem-id="1651131383013"] .tn-atom {
             color: #ffffff;
             font-size: 26px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.3;
             font-weight: 700;
             background-position: center center;
@@ -5815,8 +6104,8 @@
           }
           #rec440244862 .tn-elem[data-elem-id="1651131625879"] .tn-atom {
             color: #ffffff;
-            font-size: 18px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 14px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.9;
@@ -5831,7 +6120,7 @@
               width: 393px;
             }
             #rec440244862 .tn-elem[data-elem-id="1651131625879"] .tn-atom {
-              font-size: 17px;
+              font-size: 14px;
             }
           }
           @media screen and (max-width: 959px) {
@@ -5848,7 +6137,7 @@
               width: 387px;
             }
             #rec440244862 .tn-elem[data-elem-id="1651131625879"] .tn-atom {
-              font-size: 15px;
+              font-size: 14px;
             }
           }
           @media screen and (max-width: 479px) {
@@ -5867,10 +6156,10 @@
           }
           #rec440244862 .tn-elem[data-elem-id="1651131625883"] .tn-atom {
             color: #ffffff;
-            font-size: 26px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-size: 22px;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.3;
-            font-weight: 700;
+            font-weight: 600;
             background-position: center center;
             border-color: transparent;
             border-style: solid;
@@ -5882,7 +6171,7 @@
               width: 329px;
             }
             #rec440244862 .tn-elem[data-elem-id="1651131625883"] .tn-atom {
-              font-size: 24px;
+              font-size: 22px;
             }
           }
           @media screen and (max-width: 959px) {
@@ -5899,7 +6188,7 @@
               width: 380px;
             }
             #rec440244862 .tn-elem[data-elem-id="1651131625883"] .tn-atom {
-              font-size: 18px;
+              font-size: 20px;
             }
           }
           @media screen and (max-width: 479px) {
@@ -5970,7 +6259,7 @@
           #rec440244862 .tn-elem[data-elem-id="1651131625892"] .tn-atom {
             color: #ffffff;
             font-size: 18px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.9;
@@ -6022,7 +6311,7 @@
           #rec440244862 .tn-elem[data-elem-id="1651131625895"] .tn-atom {
             color: #ffffff;
             font-size: 26px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.3;
             font-weight: 700;
             background-position: center center;
@@ -6175,7 +6464,7 @@
           #rec440244862 .tn-elem[data-elem-id="1679494847010"] .tn-atom {
             color: #ffffff;
             font-size: 26px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.3;
             font-weight: 700;
             background-position: center center;
@@ -6226,7 +6515,7 @@
           #rec440244862 .tn-elem[data-elem-id="1679494847017"] .tn-atom {
             color: #ffffff;
             font-size: 18px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.9;
@@ -6278,7 +6567,7 @@
           #rec440244862 .tn-elem[data-elem-id="1679495342317"] .tn-atom {
             color: #ffffff;
             font-size: 18px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.9;
@@ -6330,7 +6619,7 @@
           #rec440244862 .tn-elem[data-elem-id="1679495357737"] .tn-atom {
             color: #ffffff;
             font-size: 18px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.9;
@@ -6382,7 +6671,7 @@
           #rec440244862 .tn-elem[data-elem-id="1679495357825"] .tn-atom {
             color: #ffffff;
             font-size: 18px;
-            font-family: "Raleway2", Arial, sans-serif;
+            font-family: "Poppins", Arial, sans-serif;
             line-height: 1.4;
             font-weight: 400;
             opacity: 0.9;
@@ -6425,885 +6714,971 @@
             }
           }
         </style>
-        <div class="t396">
+
+        
+
+      <div class="t396">
+        <div
+          class="t396__artboard"
+          data-artboard-recid="440244862"
+          data-artboard-screens="320,480,640,960,1200"
+          data-artboard-height="2000"
+          data-artboard-valign="center"
+          data-artboard-upscale="grid"
+          data-artboard-height-res-320="2750"
+          data-artboard-height-res-480="2400"
+          data-artboard-height-res-640="2530"
+          data-artboard-height-res-960="1800"
+        >
           <div
-            class="t396__artboard"
-            data-artboard-recid="440244862"
-            data-artboard-screens="320,480,640,960,1200"
-            data-artboard-height="2000"
-            data-artboard-valign="center"
-            data-artboard-upscale="grid"
-            data-artboard-height-res-320="2750"
-            data-artboard-height-res-480="2400"
-            data-artboard-height-res-640="2530"
-            data-artboard-height-res-960="1800"
+            class="t396__elem tn-elem tn-elem__4402448621650633964527"
+            data-elem-id="1650633964527"
+            data-elem-type="text"
+            data-field-top-value="430"
+            data-field-left-value="672"
+            data-field-width-value="408"
+            data-field-axisy-value="top"
+            data-field-axisx-value="left"
+            data-field-container-value="grid"
+            data-field-topunits-value="px"
+            data-field-leftunits-value="px"
+            data-field-heightunits-value=""
+            data-field-widthunits-value="px"
+            data-field-top-res-320-value="425"
+            data-field-left-res-320-value="20"
+            data-field-width-res-320-value="185"
+            data-field-top-res-480-value="400"
+            data-field-left-res-480-value="50"
+            data-field-width-res-480-value="266"
+            data-field-top-res-640-value="370"
+            data-field-left-res-640-value="50"
+            data-field-width-res-640-value="367"
+            data-field-top-res-960-value="145"
+            data-field-left-res-960-value="690"
+            data-field-width-res-960-value="200"
           >
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621650633964527"
-              data-elem-id="1650633964527"
-              data-elem-type="text"
-              data-field-top-value="455"
-              data-field-left-value="672"
-              data-field-width-value="408"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value=""
-              data-field-widthunits-value="px"
-              data-field-top-res-320-value="425"
-              data-field-left-res-320-value="20"
-              data-field-width-res-320-value="185"
-              data-field-top-res-480-value="400"
-              data-field-left-res-480-value="50"
-              data-field-width-res-480-value="266"
-              data-field-top-res-640-value="370"
-              data-field-left-res-640-value="50"
-              data-field-width-res-640-value="367"
-              data-field-top-res-960-value="170"
-              data-field-left-res-960-value="690"
-              data-field-width-res-960-value="200"
-            >
-              <div class="tn-atom" field="tn_text_1650633964527">
-                При первом заказе мы дарим пиццу Лесная 25 см.
-              </div>
-            </div>
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621650633964520"
-              data-elem-id="1650633964520"
-              data-elem-type="text"
-              data-field-top-value="362"
-              data-field-left-value="672"
-              data-field-width-value="397"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value=""
-              data-field-widthunits-value="px"
-              data-field-top-res-320-value="360"
-              data-field-left-res-320-value="20"
-              data-field-width-res-320-value="280"
-              data-field-top-res-480-value="350"
-              data-field-left-res-480-value="50"
-              data-field-width-res-480-value="380"
-              data-field-top-res-640-value="320"
-              data-field-left-res-640-value="50"
-              data-field-width-res-640-value="459"
-              data-field-top-res-960-value="60"
-              data-field-left-res-960-value="690"
-              data-field-width-res-960-value="220"
-            >
-              <div class="tn-atom" field="tn_text_1650633964520">
-                Может ли друг выбрать подарок?
-              </div>
-            </div>
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621650633964506"
-              data-elem-id="1650633964506"
-              data-elem-type="shape"
-              data-field-top-value="315"
-              data-field-left-value="615"
-              data-field-height-value="230"
-              data-field-width-value="566"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value="px"
-              data-field-widthunits-value="px"
-              data-field-top-res-320-value="340"
-              data-field-left-res-320-value="0"
-              data-field-height-res-320-value="180"
-              data-field-width-res-320-value="320"
-              data-field-top-res-480-value="320"
-              data-field-left-res-480-value="20"
-              data-field-height-res-480-value="150"
-              data-field-width-res-480-value="440"
-              data-field-top-res-640-value="290"
-              data-field-left-res-640-value="10"
-              data-field-height-res-640-value="165"
-              data-field-width-res-640-value="620"
-              data-field-top-res-960-value="30"
-              data-field-left-res-960-value="650"
-              data-field-height-res-960-value="240"
-              data-field-width-res-960-value="300"
-            >
-              <div class="tn-atom"></div>
-            </div>
-
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621650633964560"
-              data-elem-id="1650633964560"
-              data-elem-type="image"
-              data-field-top-value="79"
-              data-field-left-value="955"
-              data-field-width-value="225"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value=""
-              data-field-widthunits-value="px"
-              data-field-filewidth-value="774"
-              data-field-fileheight-value="692"
-              data-field-top-res-320-value="206"
-              data-field-left-res-320-value="205"
-              data-field-top-res-480-value=126"
-              data-field-left-res-480-value="345"
-              data-field-width-res-480-value="115"
-              data-field-top-res-640-value="106"
-              data-field-left-res-640-value="446"
-              data-field-top-res-960-value="106"
-              data-field-left-res-960-value="446"
-              data-field-width-res-960-value="183"
-            >
-              <div class="tn-atom">
-                <img
-                  class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3136-3963-4163-b765-336337313737/vopros.png"
-                  alt=""
-                  imgfield="tn_img_1650633964560"
-                />
-              </div>
-            </div>
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621650633964558"
-              data-elem-id="1650633964558"
-              data-elem-type="text"
-              data-field-top-value="235"
-              data-field-left-value="80"
-              data-field-width-value="440"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value=""
-              data-field-widthunits-value="px"
-              data-field-top-res-320-value="220"
-              data-field-left-res-320-value="20"
-              data-field-width-res-320-value="194"
-              data-field-top-res-480-value="250"
-              data-field-left-res-480-value="50"
-              data-field-width-res-480-value="380"
-              data-field-top-res-640-value="230"
-              data-field-left-res-640-value="50"
-              data-field-top-res-960-value="230"
-              data-field-left-res-960-value="50"
-              data-field-width-res-960-value="358"
-            >
-              <div class="tn-atom" field="tn_text_1650633964558">
-                *Промокод работает при заказе от 400 грн.
-              </div>
-            </div>
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621650633964552"
-              data-elem-id="1650633964552"
-              data-elem-type="text"
-              data-field-top-value="155"
-              data-field-left-value="80"
-              data-field-width-value="702"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value=""
-              data-field-widthunits-value="px"
-              data-field-top-res-320-value="115"
-              data-field-left-res-320-value="20"
-              data-field-width-res-320-value="246"
-              data-field-top-res-480-value="145"
-              data-field-left-res-480-value="50"
-              data-field-width-res-480-value="279"
-              data-field-top-res-640-value="135"
-              data-field-left-res-640-value="50"
-              data-field-top-res-960-value="135"
-              data-field-left-res-960-value="50"
-              data-field-width-res-960-value="363"
-            >
-              <div class="tn-atom" field="tn_text_1650633964552">
-                При оформлении заказа вводи промокод от друга в специальном
-                окошке в корзине и получай пиццу 25 см в подарок.
-              </div>
-            </div>
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621650633964539"
-              data-elem-id="1650633964539"
-              data-elem-type="text"
-              data-field-top-value="80"
-              data-field-left-value="80"
-              data-field-width-value="701"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value=""
-              data-field-widthunits-value="px"
-              data-field-top-res-320-value="50"
-              data-field-left-res-320-value="20"
-              data-field-width-res-320-value="280"
-              data-field-top-res-480-value="80"
-              data-field-left-res-480-value="50"
-              data-field-width-res-480-value="380"
-              data-field-top-res-640-value="60"
-              data-field-left-res-640-value="50"
-              data-field-width-res-640-value="405"
-              data-field-top-res-960-value="60"
-              data-field-left-res-960-value="50"
-              data-field-width-res-960-value="363"
-            >
-              <div class="tn-atom" field="tn_text_1650633964539">
-                Как получить подарок, если меня пригласил друг?
-              </div>
-            </div>
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621650633964532"
-              data-elem-id="1650633964532"
-              data-elem-type="shape"
-              data-field-top-value="30"
-              data-field-left-value="20"
-              data-field-height-value="250"
-              data-field-width-value="1160"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value="px"
-              data-field-widthunits-value="px"
-              data-field-top-res-320-value="30"
-              data-field-left-res-320-value="0"
-              data-field-height-res-320-value="280"
-              data-field-width-res-320-value="320"
-              data-field-top-res-480-value="50"
-              data-field-left-res-480-value="20"
-              data-field-height-res-480-value="250"
-              data-field-width-res-480-value="440"
-              data-field-top-res-640-value="30"
-              data-field-left-res-640-value="10"
-              data-field-top-res-960-value="30"
-              data-field-left-res-960-value="10"
-              data-field-height-res-960-value="240"
-              data-field-width-res-960-value="620"
-            >
-              <div class="tn-atom"></div>
-            </div>
-
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621651036074530"
-              data-elem-id="1651036074530"
-              data-elem-type="text"
-              data-field-top-value="715"
-              data-field-left-value="77"
-              data-field-width-value="267"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value=""
-              data-field-widthunits-value="px"
-              data-field-top-res-320-value="885"
-              data-field-left-res-320-value="20"
-              data-field-width-res-320-value="249"
-              data-field-top-res-480-value="780"
-              data-field-left-res-480-value="50"
-              data-field-width-res-480-value="266"
-              data-field-top-res-640-value="777"
-              data-field-left-res-640-value="50"
-              data-field-width-res-640-value="367"
-              data-field-top-res-960-value="425"
-              data-field-left-res-960-value="50"
-              data-field-width-res-960-value="213"
-            >
-              <div class="tn-atom" field="tn_text_1651036074530">
-                — Бонусы, которые начислены за заказы друзей не сгорают
-              </div>
-            </div>
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621651036074535"
-              data-elem-id="1651036074535"
-              data-elem-type="text"
-              data-field-top-value="621"
-              data-field-left-value="77"
-              data-field-width-value="270"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value=""
-              data-field-widthunits-value="px"
-              data-field-top-res-320-value="820"
-              data-field-left-res-320-value="20"
-              data-field-width-res-320-value="280"
-              data-field-top-res-480-value="735"
-              data-field-left-res-480-value="50"
-              data-field-width-res-480-value="380"
-              data-field-top-res-640-value="727"
-              data-field-left-res-640-value="50"
-              data-field-width-res-640-value="459"
-              data-field-top-res-960-value="320"
-              data-field-left-res-960-value="50"
-              data-field-width-res-960-value="228"
-            >
-              <div class="tn-atom" field="tn_text_1651036074535">
-                Мои бонусы имеют срок действия?
-              </div>
-            </div>
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621651036074539"
-              data-elem-id="1651036074539"
-              data-elem-type="shape"
-              data-field-top-value="580"
-              data-field-left-value="20"
-              data-field-height-value="250"
-              data-field-width-value="370"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value="px"
-              data-field-widthunits-value="px"
-              data-field-top-res-320-value="800"
-              data-field-left-res-320-value="0"
-              data-field-height-res-320-value="165"
-              data-field-width-res-320-value="320"
-              data-field-top-res-480-value="705"
-              data-field-left-res-480-value="20"
-              data-field-height-res-480-value="150"
-              data-field-width-res-480-value="440"
-              data-field-top-res-640-value="695"
-              data-field-left-res-640-value="10"
-              data-field-height-res-640-value="165"
-              data-field-width-res-640-value="620"
-              data-field-top-res-960-value="290"
-              data-field-left-res-960-value="10"
-              data-field-height-res-960-value="240"
-              data-field-width-res-960-value="300"
-            >
-              <div class="tn-atom"></div>
-            </div>
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621651036074544"
-              data-elem-id="1651036074544"
-              data-elem-type="image"
-              data-field-top-value="593"
-              data-field-left-value="916"
-              data-field-width-value="264"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value=""
-              data-field-widthunits-value="px"
-              data-field-filewidth-value="774"
-              data-field-fileheight-value="692"
-              data-field-top-res-320-value="645"
-              data-field-left-res-320-value="182"
-              data-field-width-res-320-value="138"
-              data-field-top-res-480-value="566"
-              data-field-left-res-480-value="328"
-              data-field-width-res-480-value="132"
-              data-field-top-res-640-value="492"
-              data-field-left-res-640-value="426"
-              data-field-top-res-960-value="347"
-              data-field-left-res-960-value="745"
-              data-field-width-res-960-value="204"
-            >
-              <div class="tn-atom">
-                <img
-                  class="tn-atom__img t-img"
-                  data-original="https://static.tildacdn.com/tild3736-6331-4663-a434-643061653630/vopros.png"
-                  alt=""
-                  imgfield="tn_img_1651036074544"
-                />
-              </div>
-            </div>
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621651036074551"
-              data-elem-id="1651036074551"
-              data-elem-type="text"
-              data-field-top-value="735"
-              data-field-left-value="480"
-              data-field-width-value="399"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value=""
-              data-field-widthunits-value="px"
-              data-field-top-res-320-value="650"
-              data-field-left-res-320-value="20"
-              data-field-width-res-320-value="180"
-              data-field-top-res-480-value="605"
-              data-field-left-res-480-value="50"
-              data-field-width-res-480-value="263"
-              data-field-top-res-640-value="590"
-              data-field-left-res-640-value="50"
-              data-field-width-res-640-value="376"
-              data-field-top-res-960-value="425"
-              data-field-left-res-960-value="370"
-              data-field-width-res-960-value="328"
-            >
-              <div class="tn-atom" field="tn_text_1651036074551">
-                — Бонусы начисляются только после заказа друга через сайт или
-                мобильное приложение
-              </div>
-            </div>
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621651036074554"
-              data-elem-id="1651036074554"
-              data-elem-type="text"
-              data-field-top-value="621"
-              data-field-left-value="480"
-              data-field-width-value="436"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value=""
-              data-field-widthunits-value="px"
-              data-field-top-res-320-value="570"
-              data-field-left-res-320-value="20"
-              data-field-width-res-320-value="280"
-              data-field-top-res-480-value="520"
-              data-field-left-res-480-value="50"
-              data-field-width-res-480-value="320"
-              data-field-top-res-640-value="490"
-              data-field-left-res-640-value="50"
-              data-field-width-res-640-value="405"
-              data-field-top-res-960-value="320"
-              data-field-left-res-960-value="370"
-              data-field-width-res-960-value="396"
-            >
-              <div class="tn-atom" field="tn_text_1651036074554">
-                Мне начислят бонусы, если друг сделает заказ по телефону?
-              </div>
-            </div>
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621651036074557"
-              data-elem-id="1651036074557"
-              data-elem-type="shape"
-              data-field-top-value="580"
-              data-field-left-value="420"
-              data-field-height-value="250"
-              data-field-width-value="760"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value="px"
-              data-field-widthunits-value="px"
-              data-field-top-res-320-value="550"
-              data-field-left-res-320-value="0"
-              data-field-height-res-320-value="220"
-              data-field-width-res-320-value="320"
-              data-field-top-res-480-value="490"
-              data-field-left-res-480-value="20"
-              data-field-height-res-480-value="195"
-              data-field-width-res-480-value="440"
-              data-field-top-res-640-value="475"
-              data-field-left-res-640-value="10"
-              data-field-height-res-640-value="200"
-              data-field-width-res-640-value="620"
-              data-field-top-res-960-value="290"
-              data-field-left-res-960-value="330"
-              data-field-height-res-960-value="240"
-              data-field-width-res-960-value="620"
-            >
-              <div class="tn-atom"></div>
-            </div>
-
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621651131625879"
-              data-elem-id="1651131625879"
-              data-elem-type="text"
-              data-field-top-value="455"
-              data-field-left-value="77"
-              data-field-width-value="455"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value=""
-              data-field-widthunits-value="px"
-              data-field-top-res-320-value="1080"
-              data-field-left-res-320-value="20"
-              data-field-width-res-320-value="285"
-              data-field-top-res-480-value="970"
-              data-field-left-res-480-value="50"
-              data-field-width-res-480-value="387"
-              data-field-top-res-640-value="1007"
-              data-field-left-res-640-value="50"
-              data-field-width-res-640-value="460"
-              data-field-top-res-960-value="680"
-              data-field-left-res-960-value="50"
-              data-field-width-res-960-value="393"
-            >
-              <div class="tn-atom" field="tn_text_1651131625879">
-                — Бонусы будут начислены в течение суток после завершения заказа
-                друга.<strong> </strong>
-              </div>
-            </div>
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621651131625883"
-              data-elem-id="1651131625883"
-              data-elem-type="text"
-              data-field-top-value="362"
-              data-field-left-value="77"
-              data-field-width-value="372"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value=""
-              data-field-widthunits-value="px"
-              data-field-top-res-320-value="1015"
-              data-field-left-res-320-value="20"
-              data-field-width-res-320-value="253"
-              data-field-top-res-480-value="905"
-              data-field-left-res-480-value="50"
-              data-field-width-res-480-value="380"
-              data-field-top-res-640-value="912"
-              data-field-left-res-640-value="50"
-              data-field-width-res-640-value="373"
-              data-field-top-res-960-value="581"
-              data-field-left-res-960-value="50"
-              data-field-width-res-960-value="329"
-            >
-              <div class="tn-atom" field="tn_text_1651131625883">
-                Когда начислят бонусы за заказы друзей?
-              </div>
-            </div>
-            <div
-              class="t396__elem tn-elem tn-elem__4402448621651131625887"
-              data-elem-id="1651131625887"
-              data-elem-type="shape"
-              data-field-top-value="315"
-              data-field-left-value="20"
-              data-field-height-value="230"
-              data-field-width-value="565"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value="px"
-              data-field-widthunits-value="px"
-              data-field-top-res-320-value="995"
-              data-field-left-res-320-value="0"
-              data-field-height-res-320-value="180"
-              data-field-width-res-320-value="320"
-              data-field-top-res-480-value="875"
-              data-field-left-res-480-value="20"
-              data-field-height-res-480-value="160"
-              data-field-width-res-480-value="440"
-              data-field-top-res-640-value="880"
-              data-field-left-res-640-value="10"
-              data-field-height-res-640-value="200"
-              data-field-width-res-640-value="620"
-              data-field-top-res-960-value="551"
-              data-field-left-res-960-value="10"
-              data-field-height-res-960-value="230"
-              data-field-width-res-960-value="460"
-            >
-              <div class="tn-atom"></div>
+            <div class="tn-atom" field="tn_text_1650633964527">1,472,195</div>
+          </div>
+          <div
+            class="t396__elem tn-elem tn-elem__4402448621650633964520"
+            data-elem-id="1650633964520"
+            data-elem-type="text"
+            data-field-top-value="362"
+            data-field-left-value="672"
+            data-field-width-value="397"
+            data-field-axisy-value="top"
+            data-field-axisx-value="left"
+            data-field-container-value="grid"
+            data-field-topunits-value="px"
+            data-field-leftunits-value="px"
+            data-field-heightunits-value=""
+            data-field-widthunits-value="px"
+            data-field-top-res-320-value="360"
+            data-field-left-res-320-value="20"
+            data-field-width-res-320-value="280"
+            data-field-top-res-480-value="350"
+            data-field-left-res-480-value="50"
+            data-field-width-res-480-value="380"
+            data-field-top-res-640-value="320"
+            data-field-left-res-640-value="50"
+            data-field-width-res-640-value="459"
+            data-field-top-res-960-value="60"
+            data-field-left-res-960-value="690"
+            data-field-width-res-960-value="220"
+          >
+            <div class="tn-atom" field="tn_text_1650633964520">
+              Total targeted activities for clients:
             </div>
           </div>
+          <div
+            class="t396__elem tn-elem tn-elem__4402448621650633964506"
+            data-elem-id="1650633964506"
+            data-elem-type="shape"
+            data-field-top-value="315"
+            data-field-left-value="615"
+            data-field-height-value="230"
+            data-field-width-value="566"
+            data-field-axisy-value="top"
+            data-field-axisx-value="left"
+            data-field-container-value="grid"
+            data-field-topunits-value="px"
+            data-field-leftunits-value="px"
+            data-field-heightunits-value="px"
+            data-field-widthunits-value="px"
+            data-field-top-res-320-value="340"
+            data-field-left-res-320-value="0"
+            data-field-height-res-320-value="180"
+            data-field-width-res-320-value="320"
+            data-field-top-res-480-value="320"
+            data-field-left-res-480-value="20"
+            data-field-height-res-480-value="150"
+            data-field-width-res-480-value="440"
+            data-field-top-res-640-value="290"
+            data-field-left-res-640-value="10"
+            data-field-height-res-640-value="165"
+            data-field-width-res-640-value="620"
+            data-field-top-res-960-value="30"
+            data-field-left-res-960-value="650"
+            data-field-height-res-960-value="240"
+            data-field-width-res-960-value="300"
+          >
+            <div class="tn-atom"></div>
+          </div>
+
+          <div class="t396__elem tn-elem tn-elem__4402448621650633964560"
+          data-elem-id="1650633964560" data-elem-type="image"
+          data-field-top-value="31" data-field-left-value="955"
+          data-field-width-value="225" data-field-axisy-value="top"
+          data-field-axisx-value="left" data-field-container-value="grid"
+          data-field-topunits-value="px" data-field-leftunits-value="px"
+          data-field-heightunits-value="" data-field-widthunits-value="px"
+          data-field-filewidth-value="774" data-field-fileheight-value="692"
+          data-field-top-res-320-value="183" data-field-left-res-320-value="205"
+          data-field-top-res-480-value=173" data-field-left-res-480-value="345"
+          data-field-width-res-480-value="115" data-field-top-res-640-value="66"
+          data-field-left-res-640-value="446" data-field-top-res-960-value="66"
+          data-field-left-res-960-value="446"
+          data-field-width-res-960-value="183" >
+          <div class="tn-atom">
+            <img
+              class="tn-atom__img t-img"
+              data-original="images/cpa_platform-png9.png"
+              alt=""
+              imgfield="tn_img_1650633964560"
+            />
+          </div>
         </div>
-        <script>
-          t_onReady(function () {
-            t_onFuncLoad("t396_init", function () {
-              t396_init("440244862");
-            });
-          });
-        </script>
-        <!-- /T396 -->
+        <div
+          class="t396__elem tn-elem tn-elem__4402448621650633964552"
+          data-elem-id="1650633964552"
+          data-elem-type="text"
+          data-field-top-value="155"
+          data-field-left-value="80"
+          data-field-width-value="702"
+          data-field-axisy-value="top"
+          data-field-axisx-value="left"
+          data-field-container-value="grid"
+          data-field-topunits-value="px"
+          data-field-leftunits-value="px"
+          data-field-heightunits-value=""
+          data-field-widthunits-value="px"
+          data-field-top-res-320-value="115"
+          data-field-left-res-320-value="20"
+          data-field-width-res-320-value="246"
+          data-field-top-res-480-value="145"
+          data-field-left-res-480-value="50"
+          data-field-width-res-480-value="279"
+          data-field-top-res-640-value="135"
+          data-field-left-res-640-value="50"
+          data-field-top-res-960-value="135"
+          data-field-left-res-960-value="50"
+          data-field-width-res-960-value="363"
+        >
+          <div class="tn-atom" field="tn_text_1650633964552">
+            Monetisation is the process of generating income from your website
+            or blog. Website owners and popular blogs can use different
+            strategies to maximise their income.
+          </div>
+        </div>
+        <div
+          class="t396__elem tn-elem tn-elem__4402448621650633964539"
+          data-elem-id="1650633964539"
+          data-elem-type="text"
+          data-field-top-value="80"
+          data-field-left-value="80"
+          data-field-width-value="701"
+          data-field-axisy-value="top"
+          data-field-axisx-value="left"
+          data-field-container-value="grid"
+          data-field-topunits-value="px"
+          data-field-leftunits-value="px"
+          data-field-heightunits-value=""
+          data-field-widthunits-value="px"
+          data-field-top-res-320-value="50"
+          data-field-left-res-320-value="20"
+          data-field-width-res-320-value="280"
+          data-field-top-res-480-value="80"
+          data-field-left-res-480-value="50"
+          data-field-width-res-480-value="380"
+          data-field-top-res-640-value="60"
+          data-field-left-res-640-value="50"
+          data-field-width-res-640-value="405"
+          data-field-top-res-960-value="60"
+          data-field-left-res-960-value="50"
+          data-field-width-res-960-value="363"
+        >
+          <div class="tn-atom" field="tn_text_1650633964539">
+            Monetisation - what it is in simple words
+          </div>
+        </div>
+        <div
+          class="t396__elem tn-elem tn-elem__4402448621650633964532"
+          data-elem-id="1650633964532"
+          data-elem-type="shape"
+          data-field-top-value="30"
+          data-field-left-value="20"
+          data-field-height-value="250"
+          data-field-width-value="1160"
+          data-field-axisy-value="top"
+          data-field-axisx-value="left"
+          data-field-container-value="grid"
+          data-field-topunits-value="px"
+          data-field-leftunits-value="px"
+          data-field-heightunits-value="px"
+          data-field-widthunits-value="px"
+          data-field-top-res-320-value="30"
+          data-field-left-res-320-value="0"
+          data-field-height-res-320-value="280"
+          data-field-width-res-320-value="320"
+          data-field-top-res-480-value="50"
+          data-field-left-res-480-value="20"
+          data-field-height-res-480-value="250"
+          data-field-width-res-480-value="440"
+          data-field-top-res-640-value="30"
+          data-field-left-res-640-value="10"
+          data-field-top-res-960-value="30"
+          data-field-left-res-960-value="10"
+          data-field-height-res-960-value="240"
+          data-field-width-res-960-value="620"
+        >
+          <div class="tn-atom"></div>
+        </div>
+
+        <div
+          class="t396__elem tn-elem tn-elem__4402448621651036074530"
+          data-elem-id="1651036074530"
+          data-elem-type="text"
+          data-field-top-value="690"
+          data-field-left-value="77"
+          data-field-width-value="267"
+          data-field-axisy-value="top"
+          data-field-axisx-value="left"
+          data-field-container-value="grid"
+          data-field-topunits-value="px"
+          data-field-leftunits-value="px"
+          data-field-heightunits-value=""
+          data-field-widthunits-value="px"
+          data-field-top-res-320-value="860"
+          data-field-left-res-320-value="20"
+          data-field-width-res-320-value="249"
+          data-field-top-res-480-value="780"
+          data-field-left-res-480-value="50"
+          data-field-width-res-480-value="266"
+          data-field-top-res-640-value="777"
+          data-field-left-res-640-value="50"
+          data-field-width-res-640-value="367"
+          data-field-top-res-960-value="400"
+          data-field-left-res-960-value="50"
+          data-field-width-res-960-value="213"
+        >
+          <div class="tn-atom" field="tn_text_1651036074530">
+            Any type of payment: for impressions, for clicks. Auto-optimisation
+            of indicators, detailed statistics, personal manager.
+          </div>
+        </div>
+        <div
+          class="t396__elem tn-elem tn-elem__4402448621651036074535"
+          data-elem-id="1651036074535"
+          data-elem-type="text"
+          data-field-top-value="621"
+          data-field-left-value="77"
+          data-field-width-value="270"
+          data-field-axisy-value="top"
+          data-field-axisx-value="left"
+          data-field-container-value="grid"
+          data-field-topunits-value="px"
+          data-field-leftunits-value="px"
+          data-field-heightunits-value=""
+          data-field-widthunits-value="px"
+          data-field-top-res-320-value="820"
+          data-field-left-res-320-value="20"
+          data-field-width-res-320-value="280"
+          data-field-top-res-480-value="735"
+          data-field-left-res-480-value="50"
+          data-field-width-res-480-value="380"
+          data-field-top-res-640-value="727"
+          data-field-left-res-640-value="50"
+          data-field-width-res-640-value="459"
+          data-field-top-res-960-value="320"
+          data-field-left-res-960-value="50"
+          data-field-width-res-960-value="228"
+        >
+          <div class="tn-atom" field="tn_text_1651036074535">
+            Maximum results
+          </div>
+        </div>
+        <div
+          class="t396__elem tn-elem tn-elem__4402448621651036074539"
+          data-elem-id="1651036074539"
+          data-elem-type="shape"
+          data-field-top-value="580"
+          data-field-left-value="20"
+          data-field-height-value="250"
+          data-field-width-value="370"
+          data-field-axisy-value="top"
+          data-field-axisx-value="left"
+          data-field-container-value="grid"
+          data-field-topunits-value="px"
+          data-field-leftunits-value="px"
+          data-field-heightunits-value="px"
+          data-field-widthunits-value="px"
+          data-field-top-res-320-value="800"
+          data-field-left-res-320-value="0"
+          data-field-height-res-320-value="165"
+          data-field-width-res-320-value="320"
+          data-field-top-res-480-value="705"
+          data-field-left-res-480-value="20"
+          data-field-height-res-480-value="150"
+          data-field-width-res-480-value="440"
+          data-field-top-res-640-value="695"
+          data-field-left-res-640-value="10"
+          data-field-height-res-640-value="165"
+          data-field-width-res-640-value="620"
+          data-field-top-res-960-value="290"
+          data-field-left-res-960-value="10"
+          data-field-height-res-960-value="240"
+          data-field-width-res-960-value="300"
+        >
+          <div class="tn-atom"></div>
+        </div>
+        <div
+          class="t396__elem tn-elem tn-elem__4402448621651036074544"
+          data-elem-id="1651036074544"
+          data-elem-type="image"
+          data-field-top-value="587"
+          data-field-left-value="916"
+          data-field-width-value="264"
+          data-field-axisy-value="top"
+          data-field-axisx-value="left"
+          data-field-container-value="grid"
+          data-field-topunits-value="px"
+          data-field-leftunits-value="px"
+          data-field-heightunits-value=""
+          data-field-widthunits-value="px"
+          data-field-filewidth-value="774"
+          data-field-fileheight-value="692"
+          data-field-top-res-320-value="645"
+          data-field-left-res-320-value="182"
+          data-field-width-res-320-value="138"
+          data-field-top-res-480-value="563"
+          data-field-left-res-480-value="328"
+          data-field-width-res-480-value="132"
+          data-field-top-res-640-value="488"
+          data-field-left-res-640-value="426"
+          data-field-top-res-960-value="342"
+          data-field-left-res-960-value="745"
+          data-field-width-res-960-value="204"
+        >
+          <div class="tn-atom">
+            <img
+              class="tn-atom__img t-img"
+              data-original="images/cpa_platform-png8.png"
+              alt=""
+              imgfield="tn_img_1651036074544"
+            />
+          </div>
+        </div>
+        <div
+          class="t396__elem tn-elem tn-elem__4402448621651036074551"
+          data-elem-id="1651036074551"
+          data-elem-type="text"
+          data-field-top-value="700"
+          data-field-left-value="480"
+          data-field-width-value="399"
+          data-field-axisy-value="top"
+          data-field-axisx-value="left"
+          data-field-container-value="grid"
+          data-field-topunits-value="px"
+          data-field-leftunits-value="px"
+          data-field-heightunits-value=""
+          data-field-widthunits-value="px"
+          data-field-top-res-320-value="620"
+          data-field-left-res-320-value="20"
+          data-field-width-res-320-value="180"
+          data-field-top-res-480-value="570"
+          data-field-left-res-480-value="50"
+          data-field-width-res-480-value="263"
+          data-field-top-res-640-value="560"
+          data-field-left-res-640-value="50"
+          data-field-width-res-640-value="376"
+          data-field-top-res-960-value="400"
+          data-field-left-res-960-value="370"
+          data-field-width-res-960-value="328"
+        >
+          <div class="tn-atom" field="tn_text_1651036074551">
+            We are interested in your turnover growth, so we are always ready to
+            help you solve any issues promptly.
+          </div>
+        </div>
+        <div
+          class="t396__elem tn-elem tn-elem__4402448621651036074554"
+          data-elem-id="1651036074554"
+          data-elem-type="text"
+          data-field-top-value="621"
+          data-field-left-value="480"
+          data-field-width-value="436"
+          data-field-axisy-value="top"
+          data-field-axisx-value="left"
+          data-field-container-value="grid"
+          data-field-topunits-value="px"
+          data-field-leftunits-value="px"
+          data-field-heightunits-value=""
+          data-field-widthunits-value="px"
+          data-field-top-res-320-value="570"
+          data-field-left-res-320-value="20"
+          data-field-width-res-320-value="280"
+          data-field-top-res-480-value="520"
+          data-field-left-res-480-value="50"
+          data-field-width-res-480-value="320"
+          data-field-top-res-640-value="490"
+          data-field-left-res-640-value="50"
+          data-field-width-res-640-value="405"
+          data-field-top-res-960-value="320"
+          data-field-left-res-960-value="370"
+          data-field-width-res-960-value="396"
+        >
+          <div class="tn-atom" field="tn_text_1651036074554">
+            Personal manager
+          </div>
+        </div>
+        <div
+          class="t396__elem tn-elem tn-elem__4402448621651036074557"
+          data-elem-id="1651036074557"
+          data-elem-type="shape"
+          data-field-top-value="580"
+          data-field-left-value="420"
+          data-field-height-value="250"
+          data-field-width-value="760"
+          data-field-axisy-value="top"
+          data-field-axisx-value="left"
+          data-field-container-value="grid"
+          data-field-topunits-value="px"
+          data-field-leftunits-value="px"
+          data-field-heightunits-value="px"
+          data-field-widthunits-value="px"
+          data-field-top-res-320-value="550"
+          data-field-left-res-320-value="0"
+          data-field-height-res-320-value="220"
+          data-field-width-res-320-value="320"
+          data-field-top-res-480-value="490"
+          data-field-left-res-480-value="20"
+          data-field-height-res-480-value="195"
+          data-field-width-res-480-value="440"
+          data-field-top-res-640-value="475"
+          data-field-left-res-640-value="10"
+          data-field-height-res-640-value="200"
+          data-field-width-res-640-value="620"
+          data-field-top-res-960-value="290"
+          data-field-left-res-960-value="330"
+          data-field-height-res-960-value="240"
+          data-field-width-res-960-value="620"
+        >
+          <div class="tn-atom"></div>
+        </div>
+
+        <div
+          class="t396__elem tn-elem tn-elem__4402448621651131625879"
+          data-elem-id="1651131625879"
+          data-elem-type="text"
+          data-field-top-value="430"
+          data-field-left-value="77"
+          data-field-width-value="455"
+          data-field-axisy-value="top"
+          data-field-axisx-value="left"
+          data-field-container-value="grid"
+          data-field-topunits-value="px"
+          data-field-leftunits-value="px"
+          data-field-heightunits-value=""
+          data-field-widthunits-value="px"
+          data-field-top-res-320-value="1080"
+          data-field-left-res-320-value="20"
+          data-field-width-res-320-value="285"
+          data-field-top-res-480-value="945"
+          data-field-left-res-480-value="50"
+          data-field-width-res-480-value="387"
+          data-field-top-res-640-value="980"
+          data-field-left-res-640-value="50"
+          data-field-width-res-640-value="460"
+          data-field-top-res-960-value="655"
+          data-field-left-res-960-value="50"
+          data-field-width-res-960-value="393"
+        >
+          <div class="tn-atom" field="tn_text_1651131625879">
+            Hundreds of thousands of websites and apps around the world are
+            ready to place your ad. The traffic volumes are only limited by your
+            settings.
+          </div>
+        </div>
+        <div
+          class="t396__elem tn-elem tn-elem__4402448621651131625883"
+          data-elem-id="1651131625883"
+          data-elem-type="text"
+          data-field-top-value="362"
+          data-field-left-value="77"
+          data-field-width-value="372"
+          data-field-axisy-value="top"
+          data-field-axisx-value="left"
+          data-field-container-value="grid"
+          data-field-topunits-value="px"
+          data-field-leftunits-value="px"
+          data-field-heightunits-value=""
+          data-field-widthunits-value="px"
+          data-field-top-res-320-value="1015"
+          data-field-left-res-320-value="20"
+          data-field-width-res-320-value="253"
+          data-field-top-res-480-value="905"
+          data-field-left-res-480-value="50"
+          data-field-width-res-480-value="380"
+          data-field-top-res-640-value="912"
+          data-field-left-res-640-value="50"
+          data-field-width-res-640-value="373"
+          data-field-top-res-960-value="581"
+          data-field-left-res-960-value="50"
+          data-field-width-res-960-value="329"
+        >
+          <div class="tn-atom" field="tn_text_1651131625883">
+            Traffic from all over the world
+          </div>
+        </div>
+        <div
+          class="t396__elem tn-elem tn-elem__4402448621651131625887"
+          data-elem-id="1651131625887"
+          data-elem-type="shape"
+          data-field-top-value="315"
+          data-field-left-value="20"
+          data-field-height-value="230"
+          data-field-width-value="565"
+          data-field-axisy-value="top"
+          data-field-axisx-value="left"
+          data-field-container-value="grid"
+          data-field-topunits-value="px"
+          data-field-leftunits-value="px"
+          data-field-heightunits-value="px"
+          data-field-widthunits-value="px"
+          data-field-top-res-320-value="995"
+          data-field-left-res-320-value="0"
+          data-field-height-res-320-value="180"
+          data-field-width-res-320-value="320"
+          data-field-top-res-480-value="875"
+          data-field-left-res-480-value="20"
+          data-field-height-res-480-value="160"
+          data-field-width-res-480-value="440"
+          data-field-top-res-640-value="880"
+          data-field-left-res-640-value="10"
+          data-field-height-res-640-value="200"
+          data-field-width-res-640-value="620"
+          data-field-top-res-960-value="551"
+          data-field-left-res-960-value="10"
+          data-field-height-res-960-value="230"
+          data-field-width-res-960-value="460"
+        >
+          <div class="tn-atom"></div>
+        </div>
       </div>
-      <div id="rec440278330" class="r t-rec" data-record-type="270">
-        <div class="t270"></div>
-        <script>
-          t_onReady(function () {
-            var hash = window.location.hash;
-            t_onFuncLoad("t270_scroll", function () {
-              t270_scroll(hash, -3);
-            });
-            setTimeout(function () {
-              var curPath = window.location.pathname;
-              var curFullPath = window.location.origin + curPath;
-              var recs = document.querySelectorAll(".r");
-              Array.prototype.forEach.call(recs, function (rec) {
-                var selects =
-                  'a[href^="#"]:not([href="#"]):not(.carousel-control):not(.t-carousel__control):not([href^="#price"]):not([href^="#submenu"]):not([href^="#popup"]):not([href*="#zeropopup"]):not([href*="#closepopup"]):not([href*="#closeallpopup"]):not([href^="#prodpopup"]):not([href^="#order"]):not([href^="#!"]):not([target="_blank"]),' +
-                  'a[href^="' +
-                  curPath +
-                  '#"]:not([href*="#!/tproduct/"]):not([href*="#!/tab/"]):not([href*="#popup"]):not([href*="#zeropopup"]):not([href*="#closepopup"]):not([href*="#closeallpopup"]):not([target="_blank"]),' +
-                  'a[href^="' +
-                  curFullPath +
-                  '#"]:not([href*="#!/tproduct/"]):not([href*="#!/tab/"]):not([href*="#popup"]):not([href*="#zeropopup"]):not([href*="#closepopup"]):not([href*="#closeallpopup"]):not([target="_blank"])';
-                var elements = rec.querySelectorAll(selects);
-                Array.prototype.forEach.call(elements, function (element) {
-                  element.addEventListener("click", function (event) {
-                    event.preventDefault();
-                    var hash = this.hash.trim();
-                    t_onFuncLoad("t270_scroll", function () {
-                      t270_scroll(hash, -3);
-                    });
+    </div>
+    <script>
+      t_onReady(function () {
+        t_onFuncLoad("t396_init", function () {
+          t396_init("440244862");
+        });
+      });
+    </script>
+    <!-- /T396 -->
+    <div id="rec440278330" class="r t-rec" data-record-type="270">
+      <div class="t270"></div>
+      <script>
+        t_onReady(function () {
+          var hash = window.location.hash;
+          t_onFuncLoad("t270_scroll", function () {
+            t270_scroll(hash, -3);
+          });
+          setTimeout(function () {
+            var curPath = window.location.pathname;
+            var curFullPath = window.location.origin + curPath;
+            var recs = document.querySelectorAll(".r");
+            Array.prototype.forEach.call(recs, function (rec) {
+              var selects =
+                'a[href^="#"]:not([href="#"]):not(.carousel-control):not(.t-carousel__control):not([href^="#price"]):not([href^="#submenu"]):not([href^="#popup"]):not([href*="#zeropopup"]):not([href*="#closepopup"]):not([href*="#closeallpopup"]):not([href^="#prodpopup"]):not([href^="#order"]):not([href^="#!"]):not([target="_blank"]),' +
+                'a[href^="' +
+                curPath +
+                '#"]:not([href*="#!/tproduct/"]):not([href*="#!/tab/"]):not([href*="#popup"]):not([href*="#zeropopup"]):not([href*="#closepopup"]):not([href*="#closeallpopup"]):not([target="_blank"]),' +
+                'a[href^="' +
+                curFullPath +
+                '#"]:not([href*="#!/tproduct/"]):not([href*="#!/tab/"]):not([href*="#popup"]):not([href*="#zeropopup"]):not([href*="#closepopup"]):not([href*="#closeallpopup"]):not([target="_blank"])';
+              var elements = rec.querySelectorAll(selects);
+              Array.prototype.forEach.call(elements, function (element) {
+                element.addEventListener("click", function (event) {
+                  event.preventDefault();
+                  var hash = this.hash.trim();
+                  t_onFuncLoad("t270_scroll", function () {
+                    t270_scroll(hash, -3);
                   });
                 });
               });
-              if (
-                document.querySelectorAll(".js-store").length > 0 ||
-                document.querySelectorAll(".js-feed").length > 0
-              ) {
+            });
+            if (
+              document.querySelectorAll(".js-store").length > 0 ||
+              document.querySelectorAll(".js-feed").length > 0
+            ) {
+              t_onFuncLoad("t270_scroll", function () {
+                t270_scroll(hash, -3, 1);
+              });
+            }
+          }, 500);
+          setTimeout(function () {
+            var hash = window.location.hash;
+            if (
+              hash &&
+              document.querySelectorAll('a[name="' + hash.slice(1) + '"]')
+                .length > 0
+            ) {
+              if (window.isMobile) {
                 t_onFuncLoad("t270_scroll", function () {
-                  t270_scroll(hash, -3, 1);
+                  t270_scroll(hash, 0);
+                });
+              } else {
+                t_onFuncLoad("t270_scroll", function () {
+                  t270_scroll(hash, 0);
                 });
               }
-            }, 500);
-            setTimeout(function () {
-              var hash = window.location.hash;
-              if (
-                hash &&
-                document.querySelectorAll('a[name="' + hash.slice(1) + '"]')
-                  .length > 0
-              ) {
-                if (window.isMobile) {
-                  t_onFuncLoad("t270_scroll", function () {
-                    t270_scroll(hash, 0);
-                  });
-                } else {
-                  t_onFuncLoad("t270_scroll", function () {
-                    t270_scroll(hash, 0);
-                  });
-                }
+            }
+          }, 1000);
+          window.addEventListener("popstate", function () {
+            var hash = window.location.hash;
+            if (
+              hash &&
+              document.querySelectorAll('a[name="' + hash.slice(1) + '"]')
+                .length > 0
+            ) {
+              if (window.isMobile) {
+                t_onFuncLoad("t270_scroll", function () {
+                  t270_scroll(hash, 0);
+                });
+              } else {
+                t_onFuncLoad("t270_scroll", function () {
+                  t270_scroll(hash, 0);
+                });
               }
-            }, 1000);
-            window.addEventListener("popstate", function () {
-              var hash = window.location.hash;
-              if (
-                hash &&
-                document.querySelectorAll('a[name="' + hash.slice(1) + '"]')
-                  .length > 0
-              ) {
-                if (window.isMobile) {
-                  t_onFuncLoad("t270_scroll", function () {
-                    t270_scroll(hash, 0);
-                  });
-                } else {
-                  t_onFuncLoad("t270_scroll", function () {
-                    t270_scroll(hash, 0);
-                  });
-                }
-              }
-            });
+            }
           });
-        </script>
-      </div>
-      <div
-        id="rec441285594"
-        class="r t-rec t-rec_pt_120 t-rec_pb_120 t-screenmin-980px"
-        style="
-          padding-top: 120px;
-          padding-bottom: 120px;
-          background-color: #0f1012;
-        "
-        data-animationappear="off"
-        data-record-type="977"
-        data-screen-min="980px"
-        data-bg-color="#0f1012"
-      >
-        <!-- t977 -->
-        <div class="t977">
-          <div class="t-container t-align_left t977__wrapper">
-            <div class="t977__col t977__col_left">
-              <img
-                class="t977__logo t-img"
-                src="images/logo__FARFOR_new-202_1.png"
-                data-original="https://static.tildacdn.com/tild6432-6432-4832-a339-396466333432/logo__FARFOR_new-202.png"
-                imgfield="img"
-                alt=""
-              />
+        });
+      </script>
+    </div>
+    <div
+      id="rec441285594"
+      class="r t-rec t-rec_pt_120 t-rec_pb_120 t-screenmin-980px"
+      style="
+        padding-top: 120px;
+        padding-bottom: 120px;
+        background-color: #0f1012;
+      "
+      data-animationappear="off"
+      data-record-type="977"
+      data-screen-min="980px"
+      data-bg-color="#0f1012"
+    >
+      <!-- t977 -->
+      <div class="t977">
+        <div class="t-container t-align_left t977__wrapper">
+          <div class="t977__col t977__col_left">
+            <img
+              class="t977__logo t-img"
+              src="images/logo__FARFOR_new-202_1.png"
+              data-original="https://static.tildacdn.com/tild6432-6432-4832-a339-396466333432/logo__FARFOR_new-202.png"
+              imgfield="img"
+              alt=""
+            />
+            <div
+              class="t977__text t-text"
+              style="font-size: 14px; margin-top: 30px"
+              field="text"
+            >
               <div
-                class="t977__text t-text"
-                style="font-size: 14px; margin-top: 30px"
-                field="text"
+                style="font-family: 'Poppins' sans-serif"
+                data-customstyle="yes"
               >
-                <div style="font-family: 'Raleway2'" data-customstyle="yes">
-                  © 2023, FARFOR
+                © 2023, FARFOR
+              </div>
+            </div>
+          </div>
+          <div class="t977__col_center t977__menu">
+            <div class="t977__col-inner t977__col-inner_small">
+              <div
+                class="t977__descr t-descr"
+                field="descr"
+                style="color: #ffffff; font-size: 14px"
+              >
+                <div
+                  style="line-height: 14px; font-family: 'Poppins' sans-serif"
+                  data-customstyle="yes"
+                >
+                  <strong></strong><strong></strong><strong></strong
+                  ><strong></strong
+                  ><span style="font-size: 14px"
+                    ><strong>Клиентам<br /></strong> <br />
+                    <a href="https://farfor.ru/delivery/"
+                      >Доставка и самовывоз</a
+                    >
+                    <a href="https://farfor.ru/payment/" target="_blank"
+                      >Оплата</a
+                    >
+                    <a href="https://farfor.ru/sales/" target="_blank">Акции</a>
+                    <a href="https://farfor.ru/bonus/" target="_blank"
+                      >Бонусы</a
+                    >
+                    <a href="https://farfor.ru/news/" target="_blank"
+                      >Новости</a
+                    ></span
+                  >
+                  <br />
+                  <div
+                    style="line-height: 14px; font-family: 'Poppins' sans-serif"
+                    data-customstyle="yes"
+                  ></div>
                 </div>
               </div>
             </div>
-            <div class="t977__col_center t977__menu">
-              <div class="t977__col-inner t977__col-inner_small">
+            <div class="t977__col-inner t977__col-inner_small">
+              <div
+                class="t977__descr t-descr"
+                field="descr2"
+                style="color: #ffffff; font-size: 14px"
+              >
                 <div
-                  class="t977__descr t-descr"
-                  field="descr"
-                  style="color: #ffffff; font-size: 14px"
+                  style="
+                    font-size: 14px;
+                    line-height: 16px;
+                    font-family: 'Poppins' sans-serif;
+                  "
+                  data-customstyle="yes"
                 >
-                  <div
-                    style="line-height: 14px; font-family: 'Raleway2'"
-                    data-customstyle="yes"
+                  <span style="font-family: Poppins"><strong></strong></span
+                  ><span style="font-family: Poppins"><strong></strong></span
+                  ><span style="font-family: Poppins"><strong></strong></span
+                  ><span style="font-family: Poppins"
+                    ><strong>Поддержка<br /><br /></strong></span
+                  ><a href="https://farfor.ru/back/" target="_blank"
+                    >Оставить отзыв</a
                   >
-                    <strong></strong><strong></strong><strong></strong
-                    ><strong></strong
-                    ><span style="font-size: 14px"
-                      ><strong>Клиентам<br /></strong> <br />
-                      <a href="https://farfor.ru/delivery/"
-                        >Доставка и самовывоз</a
-                      >
-                      <a href="https://farfor.ru/payment/" target="_blank"
-                        >Оплата</a
-                      >
-                      <a href="https://farfor.ru/sales/" target="_blank"
-                        >Акции</a
-                      >
-                      <a href="https://farfor.ru/bonus/" target="_blank"
-                        >Бонусы</a
-                      >
-                      <a href="https://farfor.ru/news/" target="_blank"
-                        >Новости</a
-                      ></span
-                    >
-                    <br />
-                    <div
-                      style="line-height: 14px; font-family: 'Raleway2'"
-                      data-customstyle="yes"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-              <div class="t977__col-inner t977__col-inner_small">
-                <div
-                  class="t977__descr t-descr"
-                  field="descr2"
-                  style="color: #ffffff; font-size: 14px"
-                >
-                  <div
-                    style="
-                      font-size: 14px;
-                      line-height: 16px;
-                      font-family: 'Raleway2';
-                    "
-                    data-customstyle="yes"
+                  <a
+                    href="https://farfor.ru/support/"
+                    style="display: inline !important"
+                    target="_blank"
+                    >Сообщить об ошибке</a
                   >
-                    <span style="font-family: Raleway2"><strong></strong></span
-                    ><span style="font-family: Raleway2"><strong></strong></span
-                    ><span style="font-family: Raleway2"><strong></strong></span
-                    ><span style="font-family: Raleway2"
-                      ><strong>Поддержка<br /><br /></strong></span
-                    ><a href="https://farfor.ru/back/" target="_blank"
-                      >Оставить отзыв</a
-                    >
-                    <a
-                      href="https://farfor.ru/support/"
-                      style="display: inline !important"
-                      target="_blank"
-                      >Сообщить об ошибке</a
-                    >
-                    <br /><br /><a
-                      href="https://farfor.ru/force-mobile/"
-                      style="display: inline !important"
-                      target="_blank"
-                      >Мобильная версия</a
-                    >
-                    <br /><br /><a
-                      href="https://farfor.ru/sitemap.html"
-                      style="display: inline !important"
-                      target="_blank"
-                      >Карта сайта</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="t977__col-inner t977__col-inner_small">
-                <div
-                  class="t977__descr t-descr"
-                  field="descr3"
-                  style="color: #ffffff; font-size: 14px"
-                >
-                  <div
-                    style="
-                      font-size: 14px;
-                      line-height: 16px;
-                      font-family: 'Raleway2';
-                    "
-                    data-customstyle="yes"
+                  <br /><br /><a
+                    href="https://farfor.ru/force-mobile/"
+                    style="display: inline !important"
+                    target="_blank"
+                    >Мобильная версия</a
                   >
-                    <strong>Компания<br /></strong><br /><a
-                      href="https://farfor.ru/jobs/"
-                      target="_blank"
-                      >Вакансии</a
-                    >
-                    <a
-                      href="https://partner.farfor.ru/"
-                      style="display: inline !important"
-                      target="_blank"
-                      >Открыть свое дело</a
-                    >
-                    <br /><br /><a
-                      href="https://farfor.ru/info/"
-                      style="display: inline !important"
-                      target="_blank"
-                      >Полные реквизиты</a
-                    >
-                    <br />
-                  </div>
-                </div>
-              </div>
-              <div class="t977__col-inner t977__col-inner_small">
-                <div
-                  class="t977__descr t-descr"
-                  field="descr4"
-                  style="color: #ffffff; font-size: 14px"
-                >
-                  <div
-                    style="
-                      font-size: 14px;
-                      line-height: 16px;
-                      font-family: 'Raleway2';
-                    "
-                    data-customstyle="yes"
+                  <br /><br /><a
+                    href="https://farfor.ru/sitemap.html"
+                    style="display: inline !important"
+                    target="_blank"
+                    >Карта сайта</a
                   >
-                    <span style="font-family: Raleway2"
-                      ><span
-                        data-redactor-style="font-size: 16px;"
-                        style="font-size: 16px"
-                        ><strong
-                          data-redactor-tag="strong"
-                        ></strong></span></span
-                    ><strong></strong><strong></strong><strong></strong
-                    ><strong>Информация<br /></strong> <br />
-                    <a href="https://farfor.ru/confidential/"
-                      >Политика конфиденциальности</a
-                    >
-                    <a href="https://farfor.ru/terms_of_use/"
-                      >Пользовательское соглашение</a
-                    >
-                    <a href="https://farfor.ru/important/">Для потребителей</a>
-                    <a href="https://ufa.farfor.ru/rules/">Правила продажи</a>
-                    <br />
-                  </div>
                 </div>
               </div>
             </div>
-            <div class="t977__col t977__col_right">
-              <div class="t977__socials t977__socials_small">
+            <div class="t977__col-inner t977__col-inner_small">
+              <div
+                class="t977__descr t-descr"
+                field="descr3"
+                style="color: #ffffff; font-size: 14px"
+              >
+                <div
+                  style="
+                    font-size: 14px;
+                    line-height: 16px;
+                    font-family: 'Poppins' sans-serif;
+                  "
+                  data-customstyle="yes"
+                >
+                  <strong>Компания<br /></strong><br /><a
+                    href="https://farfor.ru/jobs/"
+                    target="_blank"
+                    >Вакансии</a
+                  >
+                  <a
+                    href="https://partner.farfor.ru/"
+                    style="display: inline !important"
+                    target="_blank"
+                    >Открыть свое дело</a
+                  >
+                  <br /><br /><a
+                    href="https://farfor.ru/info/"
+                    style="display: inline !important"
+                    target="_blank"
+                    >Полные реквизиты</a
+                  >
+                  <br />
+                </div>
+              </div>
+            </div>
+            <div class="t977__col-inner t977__col-inner_small">
+              <div
+                class="t977__descr t-descr"
+                field="descr4"
+                style="color: #ffffff; font-size: 14px"
+              >
+                <div
+                  style="
+                    font-size: 14px;
+                    line-height: 16px;
+                    font-family: 'Poppins' sans-serif;
+                  "
+                  data-customstyle="yes"
+                >
+                  <span style="font-family: Poppins"
+                    ><span
+                      data-redactor-style="font-size: 16px;"
+                      style="font-size: 16px"
+                      ><strong data-redactor-tag="strong"></strong></span></span
+                  ><strong></strong><strong></strong><strong></strong
+                  ><strong>Информация<br /></strong> <br />
+                  <a href="https://farfor.ru/confidential/"
+                    >Политика конфиденциальности</a
+                  >
+                  <a href="https://farfor.ru/terms_of_use/"
+                    >Пользовательское соглашение</a
+                  >
+                  <a href="https://farfor.ru/important/">Для потребителей</a>
+                  <a href="https://ufa.farfor.ru/rules/">Правила продажи</a>
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="t977__col t977__col_right">
+            <div class="t977__socials t977__socials_small">
+              <div class="t-sociallinks">
+                <ul
+                  role="list"
+                  class="t-sociallinks__wrapper"
+                  aria-label="Social media links"
+                >
+                  <!-- new soclinks -->
+                  <li class="t-sociallinks__item t-sociallinks__item_vk">
+                    <a
+                      href="https://vk.com/farfordostavka"
+                      target="_blank"
+                      rel="nofollow"
+                      aria-label="vk"
+                      style="width: 25px; height: 25px"
+                      ><svg
+                        class="t-sociallinks__svg"
+                        role="presentation"
+                        width="25px"
+                        height="25px"
+                        viewBox="0 0 100 100"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50ZM25 34c.406 19.488 10.15 31.2 27.233 31.2h.968V54.05c6.278.625 11.024 5.216 12.93 11.15H75c-2.436-8.87-8.838-13.773-12.836-15.647C66.162 47.242 71.783 41.62 73.126 34h-8.058c-1.749 6.184-6.932 11.805-11.867 12.336V34h-8.057v21.611C40.147 54.362 33.838 48.304 33.556 34H25Z"
+                          fill="#ffffff"
+                        ></path></svg
+                    ></a>
+                  </li>
+                  <li class="t-sociallinks__item t-sociallinks__item_ok">
+                    <a
+                      href="https://ok.ru/group/54320404496454"
+                      target="_blank"
+                      rel="nofollow"
+                      aria-label="ok"
+                      style="width: 25px; height: 25px"
+                      ><svg
+                        class="t-sociallinks__svg"
+                        role="presentation"
+                        width="25px"
+                        height="25px"
+                        viewBox="0 0 100 100"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50Zm13.463-63.08c0 7.688-6.233 13.92-13.92 13.92-7.688 0-13.92-6.232-13.92-13.92S41.855 23 49.543 23s13.92 6.232 13.92 13.92Zm-7.072 0a6.848 6.848 0 1 0-13.696 0 6.848 6.848 0 0 0 13.696 0Zm3.341 15.006c2.894-2.28 5.07-.967 5.856.612 1.37 2.753-.178 4.084-3.671 6.326-2.96 1.9-7.016 2.619-9.665 2.892l2.217 2.216 8.203 8.203a3.192 3.192 0 0 1 0 4.514l-.376.376a3.192 3.192 0 0 1-4.514 0l-8.203-8.203-8.203 8.203a3.192 3.192 0 0 1-4.514 0l-.376-.376a3.192 3.192 0 0 1 0-4.514l8.203-8.203 2.21-2.21c-2.648-.268-6.748-.983-9.732-2.898-3.494-2.243-5.041-3.573-3.671-6.326.786-1.579 2.963-2.892 5.855-.612 3.91 3.08 10.19 3.08 10.19 3.08s6.282 0 10.191-3.08Z"
+                          fill="#ffffff"
+                        ></path></svg
+                    ></a>
+                  </li>
+                  <li class="t-sociallinks__item t-sociallinks__item_telegram">
+                    <a
+                      href="https://t.me/+8Qz5-1hhS5QwNjIy"
+                      target="_blank"
+                      rel="nofollow"
+                      aria-label="telegram"
+                      style="width: 25px; height: 25px"
+                      ><svg
+                        class="t-sociallinks__svg"
+                        role="presentation"
+                        width="25px"
+                        height="25px"
+                        viewBox="0 0 100 100"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50Zm21.977-68.056c.386-4.38-4.24-2.576-4.24-2.576-3.415 1.414-6.937 2.85-10.497 4.302-11.04 4.503-22.444 9.155-32.159 13.734-5.268 1.932-2.184 3.864-2.184 3.864l8.351 2.577c3.855 1.16 5.91-.129 5.91-.129l17.988-12.238c6.424-4.38 4.882-.773 3.34.773l-13.49 12.882c-2.056 1.804-1.028 3.35-.129 4.123 2.55 2.249 8.82 6.364 11.557 8.16.712.467 1.185.778 1.292.858.642.515 4.111 2.834 6.424 2.319 2.313-.516 2.57-3.479 2.57-3.479l3.083-20.226c.462-3.511.993-6.886 1.417-9.582.4-2.546.705-4.485.767-5.362Z"
+                          fill="#ffffff"
+                        ></path></svg
+                    ></a>
+                  </li>
+                  <!-- /new soclinks -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="rec441285659"
+      class="r t-rec t-screenmax-980px"
+      style="background-color: #0f1012"
+      data-animationappear="off"
+      data-record-type="463"
+      data-screen-max="980px"
+      data-bg-color="#0f1012"
+    >
+      <!-- T463 -->
+      <div class="t463" id="t-footer_441285659">
+        <div class="t463__maincontainer t463__c12collumns">
+          <div
+            class="t463__content"
+            style="padding-left: 20px; padding-right: 20px"
+          >
+            <div class="t463__colwrapper">
+              <div class="t463__col">
+                <a
+                  href="https://farfor.ru/"
+                  target="_blank"
+                  style="font-size: 20px"
+                  ><img
+                    class="t463__logo t463__img t-img"
+                    src="images/logo__FARFOR_new-202.png"
+                    data-original="https://static.tildacdn.com/tild3631-6662-4137-b861-383036353365/logo__FARFOR_new-202.png"
+                    imgfield="img"
+                    alt=""
+                /></a>
+              </div>
+              <div class="t463__col t463__col_center t-align_center">
+                <div
+                  class="t463__typo t463__copyright t-name t-name_xs"
+                  field="text"
+                  style="color: #ffffff; font-family: 'Poppins' sans-serif"
+                >
+                  © 2023, FARFOR <br />
+                </div>
+              </div>
+              <div class="t463__col t-align_right">
                 <div class="t-sociallinks">
                   <ul
                     role="list"
@@ -7317,12 +7692,12 @@
                         target="_blank"
                         rel="nofollow"
                         aria-label="vk"
-                        style="width: 25px; height: 25px"
+                        style="width: 30px; height: 30px"
                         ><svg
                           class="t-sociallinks__svg"
                           role="presentation"
-                          width="25px"
-                          height="25px"
+                          width="30px"
+                          height="30px"
                           viewBox="0 0 100 100"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
@@ -7337,16 +7712,16 @@
                     </li>
                     <li class="t-sociallinks__item t-sociallinks__item_ok">
                       <a
-                        href="https://ok.ru/group/54320404496454"
+                        href="https://t.me/+8Qz5-1hhS5QwNjIy"
                         target="_blank"
                         rel="nofollow"
                         aria-label="ok"
-                        style="width: 25px; height: 25px"
+                        style="width: 30px; height: 30px"
                         ><svg
                           class="t-sociallinks__svg"
                           role="presentation"
-                          width="25px"
-                          height="25px"
+                          width="30px"
+                          height="30px"
                           viewBox="0 0 100 100"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
@@ -7367,12 +7742,12 @@
                         target="_blank"
                         rel="nofollow"
                         aria-label="telegram"
-                        style="width: 25px; height: 25px"
+                        style="width: 30px; height: 30px"
                         ><svg
                           class="t-sociallinks__svg"
                           role="presentation"
-                          width="25px"
-                          height="25px"
+                          width="30px"
+                          height="30px"
                           viewBox="0 0 100 100"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
@@ -7393,137 +7768,8 @@
           </div>
         </div>
       </div>
-      <div
-        id="rec441285659"
-        class="r t-rec t-screenmax-980px"
-        style="background-color: #0f1012"
-        data-animationappear="off"
-        data-record-type="463"
-        data-screen-max="980px"
-        data-bg-color="#0f1012"
-      >
-        <!-- T463 -->
-        <div class="t463" id="t-footer_441285659">
-          <div class="t463__maincontainer t463__c12collumns">
-            <div
-              class="t463__content"
-              style="padding-left: 20px; padding-right: 20px"
-            >
-              <div class="t463__colwrapper">
-                <div class="t463__col">
-                  <a
-                    href="https://farfor.ru/"
-                    target="_blank"
-                    style="font-size: 20px"
-                    ><img
-                      class="t463__logo t463__img t-img"
-                      src="images/logo__FARFOR_new-202.png"
-                      data-original="https://static.tildacdn.com/tild3631-6662-4137-b861-383036353365/logo__FARFOR_new-202.png"
-                      imgfield="img"
-                      alt=""
-                  /></a>
-                </div>
-                <div class="t463__col t463__col_center t-align_center">
-                  <div
-                    class="t463__typo t463__copyright t-name t-name_xs"
-                    field="text"
-                    style="color: #ffffff; font-family: 'Raleway2'"
-                  >
-                    © 2023, FARFOR <br />
-                  </div>
-                </div>
-                <div class="t463__col t-align_right">
-                  <div class="t-sociallinks">
-                    <ul
-                      role="list"
-                      class="t-sociallinks__wrapper"
-                      aria-label="Social media links"
-                    >
-                      <!-- new soclinks -->
-                      <li class="t-sociallinks__item t-sociallinks__item_vk">
-                        <a
-                          href="https://vk.com/farfordostavka"
-                          target="_blank"
-                          rel="nofollow"
-                          aria-label="vk"
-                          style="width: 30px; height: 30px"
-                          ><svg
-                            class="t-sociallinks__svg"
-                            role="presentation"
-                            width="30px"
-                            height="30px"
-                            viewBox="0 0 100 100"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
-                              d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50ZM25 34c.406 19.488 10.15 31.2 27.233 31.2h.968V54.05c6.278.625 11.024 5.216 12.93 11.15H75c-2.436-8.87-8.838-13.773-12.836-15.647C66.162 47.242 71.783 41.62 73.126 34h-8.058c-1.749 6.184-6.932 11.805-11.867 12.336V34h-8.057v21.611C40.147 54.362 33.838 48.304 33.556 34H25Z"
-                              fill="#ffffff"
-                            ></path></svg
-                        ></a>
-                      </li>
-                      <li class="t-sociallinks__item t-sociallinks__item_ok">
-                        <a
-                          href="https://t.me/+8Qz5-1hhS5QwNjIy"
-                          target="_blank"
-                          rel="nofollow"
-                          aria-label="ok"
-                          style="width: 30px; height: 30px"
-                          ><svg
-                            class="t-sociallinks__svg"
-                            role="presentation"
-                            width="30px"
-                            height="30px"
-                            viewBox="0 0 100 100"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
-                              d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50Zm13.463-63.08c0 7.688-6.233 13.92-13.92 13.92-7.688 0-13.92-6.232-13.92-13.92S41.855 23 49.543 23s13.92 6.232 13.92 13.92Zm-7.072 0a6.848 6.848 0 1 0-13.696 0 6.848 6.848 0 0 0 13.696 0Zm3.341 15.006c2.894-2.28 5.07-.967 5.856.612 1.37 2.753-.178 4.084-3.671 6.326-2.96 1.9-7.016 2.619-9.665 2.892l2.217 2.216 8.203 8.203a3.192 3.192 0 0 1 0 4.514l-.376.376a3.192 3.192 0 0 1-4.514 0l-8.203-8.203-8.203 8.203a3.192 3.192 0 0 1-4.514 0l-.376-.376a3.192 3.192 0 0 1 0-4.514l8.203-8.203 2.21-2.21c-2.648-.268-6.748-.983-9.732-2.898-3.494-2.243-5.041-3.573-3.671-6.326.786-1.579 2.963-2.892 5.855-.612 3.91 3.08 10.19 3.08 10.19 3.08s6.282 0 10.191-3.08Z"
-                              fill="#ffffff"
-                            ></path></svg
-                        ></a>
-                      </li>
-                      <li
-                        class="t-sociallinks__item t-sociallinks__item_telegram"
-                      >
-                        <a
-                          href="https://t.me/+8Qz5-1hhS5QwNjIy"
-                          target="_blank"
-                          rel="nofollow"
-                          aria-label="telegram"
-                          style="width: 30px; height: 30px"
-                          ><svg
-                            class="t-sociallinks__svg"
-                            role="presentation"
-                            width="30px"
-                            height="30px"
-                            viewBox="0 0 100 100"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
-                              d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50Zm21.977-68.056c.386-4.38-4.24-2.576-4.24-2.576-3.415 1.414-6.937 2.85-10.497 4.302-11.04 4.503-22.444 9.155-32.159 13.734-5.268 1.932-2.184 3.864-2.184 3.864l8.351 2.577c3.855 1.16 5.91-.129 5.91-.129l17.988-12.238c6.424-4.38 4.882-.773 3.34.773l-13.49 12.882c-2.056 1.804-1.028 3.35-.129 4.123 2.55 2.249 8.82 6.364 11.557 8.16.712.467 1.185.778 1.292.858.642.515 4.111 2.834 6.424 2.319 2.313-.516 2.57-3.479 2.57-3.479l3.083-20.226c.462-3.511.993-6.886 1.417-9.582.4-2.546.705-4.485.767-5.362Z"
-                              fill="#ffffff"
-                            ></path></svg
-                        ></a>
-                      </li>
-                      <!-- /new soclinks -->
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
+
     <!--/allrecords--><!-- Stat --><!-- Yandex.Metrika counter 3411574 -->
     <script type="text/javascript" data-tilda-cookie-type="analytics">
       setTimeout(function () {
